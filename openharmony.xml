@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openharmony" fetch="git@gitee.com:openharmony/" />
+
+  <project path="foundation/ace/ace_engine" name="ace_ace_engine" remote="openharmony" revision="weekly_20220201" />
+  <project path="foundation/ace/napi" name="ace_napi" remote="openharmony" revision="weekly_20220201" />
+  <project path="developtools/ace-ets2bundle" name="developtools_ace-ets2bundle" remote="openharmony" revision="weekly_20220201" />
+  <project path="developtools/ace-js2bundle" name="developtools_ace-js2bundle" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/flutter" name="third_party_flutter" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/libuv" name="third_party_libuv" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/node" name="third_party_node" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/quickjs" name="third_party_quickjs" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20220201" />
+  <project path="utils/native" name="utils_native" remote="openharmony" revision="weekly_20220201" />
+</manifest>
