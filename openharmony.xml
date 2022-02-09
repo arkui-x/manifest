@@ -10,6 +10,7 @@
   <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="weekly_20220201" />
   <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="weekly_20220201" />
   <project path="third_party/flutter" name="third_party_flutter" remote="openharmony" revision="weekly_20220201" />
+  <project path="third_party/glfw" name="third_party_glfw" remote="openharmony" revision="weekly_20220201" />
   <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="weekly_20220201" />
   <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="weekly_20220201" />
   <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="weekly_20220201" />
