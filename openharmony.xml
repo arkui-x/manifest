@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openharmony" fetch="https://gitee.com/openharmony/" />
+  <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
   <project path="foundation/ace/ace_engine" name="ace_ace_engine" remote="openharmony" revision="weekly_20220201" />
   <project path="foundation/ace/napi" name="ace_napi" remote="openharmony" revision="weekly_20220201" />
