@@ -8,7 +8,7 @@ developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,Y
 developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,Y
 doc,@ohos/doc,Y
 samples,@ohos/samples,Y
-third_party_cJSON,@ohos/cJSON
+third_party_cJSON,@ohos/cJSON,Y
 third_party_curl,@ohos/curl,Y
 third_party_expat,@ohos/expat,Y
 third_party_flutter,@ohos/flutter,Y
