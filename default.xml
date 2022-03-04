@@ -9,6 +9,7 @@
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
   <project path="samples" name="samples" />
+  <project path="docs" name="doc" />
   <project path="foundation/ace/tools/command-tools" name="cli" />
   <project path="foundation/ace/ace_engine/adapter/android" name="android" />
 </manifest>
