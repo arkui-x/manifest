@@ -1,6 +1,6 @@
 # manifest
 
-#### 代码下载命令
+#### ArkUI-CrossPlatform 主干代码下载命令
 
 ```bash
 mkdir arkui
@@ -9,3 +9,11 @@ repo init -u git@gitee.com:arkui-crossplatform/manifest.git -b master --no-repo-
 repo sync -c --no-tags -j12
 ```
 
+#### ArkUI-CrossPlatform 开发分支代码下载命令
+
+```bash
+mkdir arkui
+cd arkui
+repo init -u git@gitee.com:arkui-crossplatform/manifest.git -b master --no-repo-verify -m arkui-dev/arkui-dev.xml
+repo sync -c --no-tags -j12
+```
