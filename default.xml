@@ -8,6 +8,7 @@
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
+  <project path="community" name="community" />
   <project path="samples" name="samples" />
   <project path="docs" name="doc" />
   <project path="foundation/ace/tools/command-tools" name="cli" />
