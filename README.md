@@ -14,6 +14,6 @@ repo sync -c --no-tags -j12
 ```bash
 mkdir arkui
 cd arkui
-repo init -u git@gitee.com:arkui-crossplatform/manifest.git -b master --no-repo-verify -m arkui-dev/arkui-dev.xml
+repo init -u git@gitee.com:arkui-crossplatform/manifest.git -b master --no-repo-verify -m arkui-dev.xml
 repo sync -c --no-tags -j12
 ```
