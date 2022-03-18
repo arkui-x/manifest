@@ -4,6 +4,7 @@ ace_napi,@ohos/ace_napi,Y
 android,@ohos/android,Y
 build,@ohos/build,Y
 cli,@ohos/cli,Y
+community,@ohos/community,Y
 developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,Y
 developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,Y
 doc,@ohos/doc,Y

@@ -11,6 +11,6 @@
   <project path="community" name="community" />
   <project path="samples" name="samples" />
   <project path="docs" name="doc" />
-  <project path="foundation/ace/tools/command-tools" name="cli" />
+  <project path="developtools/ace_tools" name="cli" />
   <project path="foundation/ace/ace_engine/adapter/android" name="android" />
 </manifest>
