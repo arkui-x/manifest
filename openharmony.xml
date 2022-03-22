@@ -2,24 +2,25 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
-  <project path="foundation/ace/ace_engine" name="ace_ace_engine" remote="openharmony" revision="weekly_20220201" />
-  <project path="foundation/ace/napi" name="ace_napi" remote="openharmony" revision="weekly_20220201" />
-  <project path="developtools/ace-ets2bundle" name="developtools_ace-ets2bundle" remote="openharmony" revision="weekly_20220201" />
-  <project path="developtools/ace-js2bundle" name="developtools_ace-js2bundle" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/flutter" name="third_party_flutter" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/glfw" name="third_party_glfw" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/libuv" name="third_party_libuv" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/node" name="third_party_node" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/quickjs" name="third_party_quickjs" remote="openharmony" revision="weekly_20220201" />
-  <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20220201" />
-  <project path="utils/native" name="utils_native" remote="openharmony" revision="weekly_20220201" />
+  <project path="foundation/ace/ace_engine" name="ace_ace_engine" remote="openharmony" revision="9aeb1301d83587d6567a59d74edcea64775e7d11" />
+  <project path="foundation/ace/napi" name="ace_napi" remote="openharmony" revision="231b1b5fff9111dc258645a1456d9e6043f1c9ea" />
+  <project path="developtools/ace-ets2bundle" name="developtools_ace-ets2bundle" remote="openharmony" revision="a563524d9d02948d542ef0372d15211e15765cdf" />
+  <project path="developtools/ace-js2bundle" name="developtools_ace-js2bundle" remote="openharmony" revision="c30ddce100e92efe745e8861376b1bfb166c52da" />
+  <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="7d2f0c5442398a3e4ef797621f3385e0d3ce8742" />
+  <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="3607432634e2d549cb5455c7d5caf8a1e3f8696e" />
+  <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="c299d0a4d0e70d0809ebff81a0c81275b75736fd" />
+  <project path="third_party/flutter" name="third_party_flutter" remote="openharmony" revision="15e0d37ca7a88837ad9ae4d3d4f53dcd7a81ffc4" />
+  <project path="third_party/glfw" name="third_party_glfw" remote="openharmony" revision="001058a1b2d55774dcea1dbb454b9777a8601eb5" />
+  <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="1507b2df99421d8a35d8efffec7ea0addec0935c" />
+  <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="c6f149923ee9119d50ac7736d79b15b62d3801be" />
+  <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="391fd3aeb0ae75f44e9fefc6216b9daa059a8269" />
+  <project path="third_party/libuv" name="third_party_libuv" remote="openharmony" revision="bea9c7bcc3e18b8af343b027e726d4bc18988c11" />
+  <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="d8d5756bd337dce839d830c2ca2071eacf315408" />
+  <project path="third_party/node" name="third_party_node" remote="openharmony" revision="8caa4b014deffcc3ba2a12d8ec5e944389bf14c4" />
+  <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="2f0236f71d6e07939ad98dc1cd6ea0673b251f03" />
+  <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="ff46d5232d9bc64bb2d9a4a3bd9246cab119445b" />
+  <project path="third_party/quickjs" name="third_party_quickjs" remote="openharmony" revision="0c6a69d8516f7dd688d50d51fd0ac683478b494f" />
+  <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="3fcbc7d0fe0fe2b929baa9f48574c403752752ee" />
+  <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="d8a0b9ca3a8aa114a6109f2c70a3ba4abdf705a2" />
+  <project path="utils/native" name="utils_native" remote="openharmony" revision="b47fce70fc886420f67ba34456e5aeb5b5b5e542" />
 </manifest>
