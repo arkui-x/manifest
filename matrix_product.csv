@@ -9,6 +9,7 @@ developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,Y
 developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,Y
 doc,@ohos/doc,Y
 samples,@ohos/samples,Y
+interface_sdk-js,@ohos/sdk-js,Y
 third_party_cJSON,@ohos/cJSON,Y
 third_party_curl,@ohos/curl,Y
 third_party_expat,@ohos/expat,Y
@@ -23,5 +24,6 @@ third_party_node,@ohos/node,Y
 third_party_openssl,@ohos/openssl,Y
 third_party_qrcodegen,@ohos/qrcodegen,Y
 third_party_quickjs,@ohos/quickjs,Y
+third_party_weex-loader,@ohos/weex-loader,Y
 third_party_zlib,@ohos/zlib,Y
 utils_native,@ohos/utils_native,Y

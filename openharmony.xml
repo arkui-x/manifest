@@ -6,6 +6,7 @@
   <project path="foundation/ace/napi" name="ace_napi" remote="openharmony" revision="231b1b5fff9111dc258645a1456d9e6043f1c9ea" />
   <project path="developtools/ace-ets2bundle" name="developtools_ace-ets2bundle" remote="openharmony" revision="a563524d9d02948d542ef0372d15211e15765cdf" />
   <project path="developtools/ace-js2bundle" name="developtools_ace-js2bundle" remote="openharmony" revision="c30ddce100e92efe745e8861376b1bfb166c52da" />
+  <project path="interface/sdk-js" name="interface_sdk-js" remote="openharmony" revision="25146b2029697c1cc13bd6d4c350b23fa6b28536" />
   <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="7d2f0c5442398a3e4ef797621f3385e0d3ce8742" />
   <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="3607432634e2d549cb5455c7d5caf8a1e3f8696e" />
   <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="c299d0a4d0e70d0809ebff81a0c81275b75736fd" />
@@ -21,6 +22,7 @@
   <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="ff46d5232d9bc64bb2d9a4a3bd9246cab119445b" />
   <project path="third_party/quickjs" name="third_party_quickjs" remote="openharmony" revision="0c6a69d8516f7dd688d50d51fd0ac683478b494f" />
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="3fcbc7d0fe0fe2b929baa9f48574c403752752ee" />
+  <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="be9468773b6ce9371d531d292d3e33a0cb1e4098" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="d8a0b9ca3a8aa114a6109f2c70a3ba4abdf705a2" />
   <project path="utils/native" name="utils_native" remote="openharmony" revision="b47fce70fc886420f67ba34456e5aeb5b5b5e542" />
 </manifest>
