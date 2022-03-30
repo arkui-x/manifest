@@ -22,6 +22,7 @@ third_party_libuv,@ohos/libuv,Y
 third_party_nghttp2,@ohos/nghttp2,Y
 third_party_node,@ohos/node,Y
 third_party_openssl,@ohos/openssl,Y
+third_party_parse5,@ohos/parse5,Y
 third_party_qrcodegen,@ohos/qrcodegen,Y
 third_party_quickjs,@ohos/quickjs,Y
 third_party_weex-loader,@ohos/weex-loader,Y
