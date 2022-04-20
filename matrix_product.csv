@@ -8,6 +8,7 @@ community,@ohos/community,Y
 developtools_ace-ets2bundle,@ohos/developtools_ace-ets2bundle,Y
 developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,Y
 doc,@ohos/doc,Y
+ios,@ohos/ios,Y
 samples,@ohos/samples,Y
 interface_sdk-js,@ohos/sdk-js,Y
 third_party_cJSON,@ohos/cJSON,Y
