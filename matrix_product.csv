@@ -10,6 +10,7 @@ developtools_ace-js2bundle,@ohos/developtools_ace-js2bundle,Y
 doc,@ohos/doc,Y
 ios,@ohos/ios,Y
 samples,@ohos/samples,Y
+xts,@ohos/xts,Y
 interface_sdk-js,@ohos/sdk-js,Y
 third_party_cJSON,@ohos/cJSON,Y
 third_party_curl,@ohos/curl,Y
