@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
-  <project path="foundation/ace/ace_engine" name="ace_ace_engine" remote="openharmony" revision="71f6c9b1759db29eb48e8ad86ef5893679fa1c1d" />
+  <project path="foundation/ace/ace_engine" name="ace_ace_engine" remote="openharmony" revision="5cf0202af141e673b00f1fe1c3ca6bb266888907" />
   <project path="foundation/ace/napi" name="ace_napi" remote="openharmony" revision="758cb6fad00ba3c1e36eed8542d73c28e78156e4" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace-ets2bundle" remote="openharmony" revision="68ec2fb19fecd070469cf1338bc50c9ade39ec96" />
   <project path="developtools/ace_js2bundle" name="developtools_ace-js2bundle" remote="openharmony" revision="390e139c478d8dda9a480efdab6c24837c056982" />
