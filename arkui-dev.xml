@@ -12,6 +12,6 @@
   <project path="samples" name="samples" />
   <project path="docs" name="doc" />
   <project path="developtools/ace_tools" name="cli" />
-  <project path="foundation/ace/ace_engine/adapter/android" name="android" />
-  <project path="foundation/ace/ace_engine/adapter/ios" name="ios" />
+  <project path="foundation/arkui/ace_engine/adapter/android" name="android" />
+  <project path="foundation/arkui/ace_engine/adapter/ios" name="ios" />
 </manifest>
