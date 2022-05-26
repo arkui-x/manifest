@@ -3,7 +3,7 @@
   <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
   <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="e829d7f1fbeac900e0283772dbe1b9ddfabda37c" />
-  <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="289e29caed29a57c672782e42f53a05e58a2da19" />
+  <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="568f161d36e8b8a3d108760759d2d807f0a9d62e" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace-ets2bundle" remote="openharmony" revision="b59bcdaa0d70a983ef13f43f82f4b122fbf5f917" />
   <project path="developtools/ace_js2bundle" name="developtools_ace-js2bundle" remote="openharmony" revision="a9a954c6c4f568b95370460c2e01dea62adb2d58" />
   <project path="interface/sdk-js" name="interface_sdk-js" remote="openharmony" revision="bd8c4d02e605be9709d1cbbac7ef7e0914e63cf2" />
