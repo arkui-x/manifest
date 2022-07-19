@@ -26,4 +26,8 @@
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="21ad826c75c5881f9b3530b99573f2ad5e824b86" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="51fc2f8d7eff10cffa865098f047296139ace68b" />
   <project path="utils/native" name="utils_native" remote="openharmony" revision="283e7db1a5d981a374e5328e63e1cf82588ff896" />
+  <project path="ark/ts2abc" name="arkcompiler_ets_frontend" remote="openharmony" revision="ff2d205ef569413969c1cd5c690c90dab23fb6eb" />
+  <project path="ark/js_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="9f04e1ade294774d3fc82c8855063f518ba0cf5c" />
+  <project path="ark/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="e8b165b7eb5b241333e9c13832383e0708cdc884" />
+  <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="10cdcc0343250d9657a77d1d4717ebee9d115919" />
 </manifest>
