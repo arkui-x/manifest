@@ -27,8 +27,8 @@
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20220719" />
   <project path="utils" name="utils" remote="openharmony" revision="b83def4781ee70b40f02016a45f64fc50b2d8589" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="6bb31f67dbabbaaa0b02d351cbb99ab6b7cb78d2" />
-  <project path="ark/ts2abc" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20220719" />
-  <project path="ark/js_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20220719" />
-  <project path="ark/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20220719" />
+  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20220719" />
+  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20220719" />
+  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20220719" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20220719" />
 </manifest>
