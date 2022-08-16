@@ -1,6 +1,6 @@
 repoistory,bundle,arkui_crossplatform_android
-ace_ace_engine,@ohos/ace_ace_engine,Y
-ace_napi,@ohos/ace_napi,Y
+arkui_ace_engine,@ohos/arkui_ace_engine,Y
+arkui_napi,@ohos/arkui_napi,Y
 android,@ohos/android,Y
 build,@ohos/build,Y
 cli,@ohos/cli,Y
@@ -11,6 +11,7 @@ doc,@ohos/doc,Y
 ios,@ohos/ios,Y
 samples,@ohos/samples,Y
 xts,@ohos/xts,Y
+plugins,@ohos/plugins,Y
 interface_sdk-js,@ohos/sdk-js,Y
 third_party_cJSON,@ohos/cJSON,Y
 third_party_curl,@ohos/curl,Y
