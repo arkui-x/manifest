@@ -14,4 +14,5 @@
   <project path="developtools/ace_tools" name="cli" />
   <project path="foundation/arkui/ace_engine/adapter/android" name="android" />
   <project path="foundation/arkui/ace_engine/adapter/ios" name="ios" />
+  <project path="plugins" name="plugins" />
 </manifest>
