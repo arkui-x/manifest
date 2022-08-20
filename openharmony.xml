@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
-  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="5045302c8d85f54738a189a6dba868d745217e29" />
+  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="6653b1c56bcfa80501c9b6df40e3e78078193bed" />
   <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="1e419651a7bac25eebecab0e3851646c3c3df747" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace-ets2bundle" remote="openharmony" revision="weekly_20220816" />
   <project path="developtools/ace_js2bundle" name="developtools_ace-js2bundle" remote="openharmony" revision="weekly_20220816" />
@@ -31,4 +31,5 @@
   <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20220816" />
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20220816" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20220816" />
+  <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20220816" />
 </manifest>
