@@ -16,4 +16,8 @@
   <project path="foundation/arkui/ace_engine/adapter/android" name="android" />
   <project path="foundation/arkui/ace_engine/adapter/ios" name="ios" />
   <project path="plugins" name="plugins" />
+  <project path="third_party/flutter_ace_shell/engine/flutter" name="third_party_flutter_engine">
+    <linkfile dest="third_party/flutter_ace_shell/build" src="arkui/build"/>
+    <linkfile dest="third_party/flutter_ace_shell/engine/ace_shell" src="arkui/ace_shell" />
+  </project>
 </manifest>

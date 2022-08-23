@@ -17,6 +17,7 @@ third_party_cJSON,@ohos/cJSON,Y
 third_party_curl,@ohos/curl,Y
 third_party_expat,@ohos/expat,Y
 third_party_flutter,@ohos/flutter,Y
+third_party_flutter_engine,@ohos/flutter_engine,Y
 third_party_glfw,@ohos/glfw,Y
 third_party_googletest,@ohos/googletest,Y
 third_party_icu,@ohos/icu,Y
@@ -28,6 +29,7 @@ third_party_openssl,@ohos/openssl,Y
 third_party_parse5,@ohos/parse5,Y
 third_party_qrcodegen,@ohos/qrcodegen,Y
 third_party_quickjs,@ohos/quickjs,Y
+third_party_skia,@ohos/skia,Y
 third_party_weex-loader,@ohos/weex-loader,Y
 third_party_zlib,@ohos/zlib,Y
 utils_native,@ohos/utils_native,Y
