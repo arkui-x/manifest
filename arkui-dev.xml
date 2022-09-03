@@ -3,7 +3,7 @@
   <remote fetch="." name="origin" review="https://gitee.com/arkui-crossplatform/" />
   <default remote="origin" revision="arkui-dev" sync-j="4" />
 
-  <include name="openharmony.xml" />
+  <include name="openharmony-master.xml" />
   <project path="build" name="build">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
