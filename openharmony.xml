@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
-  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="241f12dfd721ecfe237d46a4b8467e2fbd696ca5" />
+  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="872ef6271353eabca4cffd792a4708a9a984bd3c" />
   <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="4b28488bef0a57d274b3feec8e59136918e53575" />
   <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="0736d4d0f6cf91a1dd722e2a24c29f4dcc3bdc3e" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace-ets2bundle" remote="openharmony" revision="weekly_20220823" />
@@ -33,4 +33,6 @@
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20220823" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20220823" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20220823" />
+  <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="weekly_20220823" />
+  <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="weekly_20220823" />
 </manifest>
