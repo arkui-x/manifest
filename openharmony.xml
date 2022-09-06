@@ -33,6 +33,9 @@
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20220823" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20220823" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20220823" />
+  <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="06002d47c1232f254d40314ae58672e54291715b" />
+  <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="0f0d7c6f06860e061cd646a43b290588d60e53c7" />
+  <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="acf5e00584d41f93edc82a73d1635224578ec1b4" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="weekly_20220823" />
   <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="weekly_20220823" />
 </manifest>
