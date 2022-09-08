@@ -31,6 +31,7 @@
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="master" />
   <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="master" />
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="master" />
+  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="master" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="master" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="master" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="master" />
