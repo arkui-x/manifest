@@ -9,6 +9,7 @@
   <project path="developtools/ace_js2bundle" name="developtools_ace-js2bundle" remote="openharmony" revision="weekly_20220913" />
   <project path="interface/sdk-js" name="interface_sdk-js" remote="openharmony" revision="weekly_20220913" />
   <project path="third_party/bounds_checking_function" name="third_party_bounds_checking_function" remote="openharmony" revision="weekly_20220913" />
+  <project path="third_party/css-what" name="third_party_css-what" remote="openharmony" revision="weekly_20220913" />
   <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="weekly_20220913" />
   <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="weekly_20220913" />
   <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="weekly_20220913" />
