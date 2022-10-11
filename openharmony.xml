@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
-  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="17428831c3998a4d46e01527f121d2f507b5e91b" />
+  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="81cd5918809597be2b65a47355e0b417110fd243" />
   <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="weekly_20221004" />
   <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="weekly_20221004" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace_ets2bundle" remote="openharmony" revision="weekly_20221004" />
@@ -42,7 +42,7 @@
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="weekly_20221004" />
   <project path="third_party/libpng" name="third_party_libpng" remote="openharmony" revision="weekly_20221004" />
   <project path="third_party/json" name="third_party_json" remote="openharmony" revision="weekly_20221004" />
-  <project path="third_party/glib" name="third_party_glib" remote="openharmony" revision="weekly_20221004" />
+  <project path="third_party/glib" name="third_party_glib" remote="openharmony" revision="ca206fdaf6064f9e4bb372a25a7316879f53bc55" />
   <project path="third_party/gettext" name="third_party_gettext" remote="openharmony" revision="weekly_20221004" />
   <project path="third_party/libffi" name="third_party_libffi" remote="openharmony" revision="weekly_20221004" />
   <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="weekly_20221004" />
