@@ -9,6 +9,7 @@
   <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="weekly_20221011" />
   <project path="interface/sdk-js" name="interface_sdk-js" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/bounds_checking_function" name="third_party_bounds_checking_function" remote="openharmony" revision="weekly_20221011" />
+  <project path="third_party/boost" name="third_party_boost" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/css-what" name="third_party_css-what" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="weekly_20221011" />
@@ -31,13 +32,14 @@
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20221011" />
   <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20221011" />
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20221011" />
+  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20221011" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20221011" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20221011" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20221011" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="weekly_20221011" />
-  <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="weekly_20221011" />
+  <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="c270bae5b52ac1112ea1b979059b423832891490" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/libpng" name="third_party_libpng" remote="openharmony" revision="weekly_20221011" />
