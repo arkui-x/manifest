@@ -2,8 +2,8 @@
 <manifest>
   <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
-  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="f73eae767398272ec92c4f678cb0ff6812764e48" />
-  <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="f30708863a30b122836aeececd72d2a8691966a3" />
+  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="725d16d8b3a7d2ef3f9a6778b30f1032fb5e9d74" />
+  <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="a8ad8af700ea718ec71e69650eb416e61eef1b76" />
   <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="weekly_20221011" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace_ets2bundle" remote="openharmony" revision="weekly_20221011" />
   <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="weekly_20221011" />
@@ -29,10 +29,10 @@
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20221011" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20221011" />
-  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20221011" />
-  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20221011" />
-  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20221011" />
-  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20221011" />
+  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="26eb69d288dbf890f902c08716993e5530d6ce21" />
+  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="94d62f34bea176f920e5dd01bf3a1beffd3496e8" />
+  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="12998ccf8937654bcdab41386b19bbba291e4ffa" />
+  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="9ecc39a3371d752a4877d07274306b547e4883ab" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20221011" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20221011" />
