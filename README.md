@@ -1,10 +1,10 @@
 # 获取源码
 
-### ArkUI-CrossPlatform介绍
+### ArkUI-X介绍
 
 ArkUI跨OS平台项目。本项目配套OpenHarmony中的ArkUI相关项目，将ArkUI开发框架扩展到不同的OS平台，比如Android, iOS, Windows等， 让开发者基于ArkUI，可复用大部分的应用代码（UI以及主要应用逻辑）并可以部署到相应的OS平台，降低跨平台应用开发成本。
 
-开源代码仓库地址：[https://gitee.com/arkui-crossplatform](https://gitee.com/arkui-crossplatform)。
+开源代码仓库地址：[https://gitee.com/arkui-x](https://gitee.com/arkui-x)。
 
 ### 前提条件
 
@@ -30,14 +30,14 @@ ArkUI跨OS平台项目。本项目配套OpenHarmony中的ArkUI相关项目，将
 
 ### 操作步骤
 
-- **ArkUI-CrossPlatform主干代码获取**
+- **ArkUI-X主干代码获取**
 
   方式一（推荐）：通过repo + ssh下载（需注册公钥，请参考[码云帮助中心](https://gitee.com/help/articles/4191)）。
 
   ```
   mkdir arkui
   cd arkui
-  repo init -u git@gitee.com:arkui-crossplatform/manifest.git -b master --no-repo-verify
+  repo init -u git@gitee.com:arkui-x/manifest.git -b master --no-repo-verify
   repo sync -c --no-tags -j12
   ```
 
@@ -46,19 +46,19 @@ ArkUI跨OS平台项目。本项目配套OpenHarmony中的ArkUI相关项目，将
   ```
   mkdir arkui
   cd arkui
-  repo init -u https://gitee.com/arkui-crossplatform/manifest.git -b master --no-repo-verify
+  repo init -u https://gitee.com/arkui-x/manifest.git -b master --no-repo-verify
   repo sync -c
   repo forall -c 'git lfs pull'
   ```
 
-- **ArkUI-CrossPlatform开发分支代码获取**
+- **ArkUI-X开发分支代码获取**
 
   方式一（推荐）：通过repo + ssh下载（需注册公钥，请参考[码云帮助中心](https://gitee.com/help/articles/4191)）。
 
   ```
   mkdir arkui
   cd arkui
-  repo init -u git@gitee.com:arkui-crossplatform/manifest.git -b master --no-repo-verify -m arkui-dev.xml
+  repo init -u git@gitee.com:arkui-x/manifest.git -b master --no-repo-verify -m arkui-dev.xml
   repo sync -c --no-tags -j12
   ```
 
@@ -67,13 +67,13 @@ ArkUI跨OS平台项目。本项目配套OpenHarmony中的ArkUI相关项目，将
   ```
   mkdir arkui
   cd arkui
-  repo init -u https://gitee.com/arkui-crossplatform/manifest.git -b master --no-repo-verify -m arkui-dev.xml
+  repo init -u https://gitee.com/arkui-x/manifest.git -b master --no-repo-verify -m arkui-dev.xml
   repo sync -c --no-tags -j12
   ```
 
 # 源码目录简介
 
-下表是ArkUI-CrossPlatform源码目录：
+下表是ArkUI-X源码目录：
 
 <table><thead align="left"><tr id="row198162047192810"><th class="cellrowborder" valign="top" width="50%" id="mcps1.2.3.1.1"><p id="p690319291299"><a name="p690319291299"></a><a name="p690319291299"></a>目录名</p>
 </th>
