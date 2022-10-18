@@ -28,7 +28,7 @@
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20221011" />
-  <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20221011" />
+  <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="17692aa7acf3250acd4f190312bfbbaa07e12c3a" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="26eb69d288dbf890f902c08716993e5530d6ce21" />
   <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="94d62f34bea176f920e5dd01bf3a1beffd3496e8" />
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="12998ccf8937654bcdab41386b19bbba291e4ffa" />
@@ -37,6 +37,7 @@
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20221011" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20221011" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20221011" />
+  <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="3f30953784205bca2a57e2a6b13c97fdaaf7e942" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20221011" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="weekly_20221011" />
   <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="c270bae5b52ac1112ea1b979059b423832891490" />
