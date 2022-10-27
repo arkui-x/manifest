@@ -11,10 +11,10 @@
   <project path="community" name="community" />
   <project path="samples" name="samples" />
   <project path="xts" name="xts" />
-  <project path="docs" name="doc" />
+  <project path="docs" name="docs" />
   <project path="developtools/ace_tools" name="cli" />
-  <project path="foundation/arkui/ace_engine/adapter/android" name="android" />
-  <project path="foundation/arkui/ace_engine/adapter/ios" name="ios" />
+  <project path="foundation/arkui/ace_engine/adapter/android" name="arkui_for_android" />
+  <project path="foundation/arkui/ace_engine/adapter/ios" name="arkui_for_ios" />
   <project path="plugins" name="plugins" />
   <project path="third_party/flutter_ace_shell/engine/flutter" name="third_party_flutter_engine">
     <linkfile dest="third_party/flutter_ace_shell/build" src="arkui/build"/>
