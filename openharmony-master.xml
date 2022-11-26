@@ -7,7 +7,6 @@
   <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="master" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace_ets2bundle" remote="openharmony" revision="master" />
   <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="master" />
-  <project path="interface/sdk-js" name="interface_sdk-js" remote="openharmony" revision="master" />
   <project path="third_party/bounds_checking_function" name="third_party_bounds_checking_function" remote="openharmony" revision="master" />
   <project path="third_party/boost" name="third_party_boost" remote="openharmony" revision="master" />
   <project path="third_party/css-what" name="third_party_css-what" remote="openharmony" revision="master" />
@@ -24,7 +23,6 @@
   <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="master" />
   <project path="third_party/parse5" name="third_party_parse5" remote="openharmony" revision="master" />
   <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="master" />
-  <project path="third_party/quickjs" name="third_party_quickjs" remote="openharmony" revision="master" />
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="master" />
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="master" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="master" />

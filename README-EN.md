@@ -1,5 +1,7 @@
 # ArkUI-X Source Code
 
+[简体中文](README.md) | English
+
 ### Introduction to ArkUI-X
 
 ArkUI-X refers to the ArkUI cross-platform project. This project works with ArkUI-specific projects in OpenHarmony to adapt the ArkUI development framework to different OS platforms, such as Android, iOS, and Windows. You can reuse most application code (UI and main application logic) based on the ArkUI and deploy the code on the corresponding OS platform, thus reducing cross-platform application development costs.
