@@ -37,7 +37,7 @@
   <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="master" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="master" />
-  <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="a092597522769dc683041e95968fde560464226a" />
+  <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="master" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="master" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="master" />
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="master" />
