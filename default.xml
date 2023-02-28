@@ -16,4 +16,6 @@
   <project path="foundation/arkui/ace_engine/adapter/android" name="arkui_for_android" />
   <project path="foundation/arkui/ace_engine/adapter/ios" name="arkui_for_ios" />
   <project path="plugins" name="plugins" />
+  <project path="interface/sdk" name="interface_sdk" />
+  <project path="build_plugins" name="build_plugins" />
 </manifest>
