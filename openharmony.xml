@@ -27,10 +27,10 @@
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="weekly_20230221" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20230221" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20230221" />
-  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20230221" />
-  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20230221" />
-  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20230221" />
-  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20230221" />
+  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="d6d1064bbf956732e354a5fe4ed7818257dcbdd2" />
+  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="d32bed01de3ac3d1c037c56a2e2a114606107d34" />
+  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="8274c79cbad066674c4f315bc171382f795d5f74" />
+  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="098c3ddc03cbbb595b4fdc9b88333d668fc88af0" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20230221" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20230221" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20230221" />
