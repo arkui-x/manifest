@@ -10,4 +10,5 @@ samples,@ohos/samples,Y,Y,Y,Y,Y
 xts,@ohos/xts,Y,Y,Y,Y,Y
 third_party_flutter_engine,@ohos/flutter_engine,Y,Y,Y,Y,Y
 interface_sdk,@ohos/interface_sdk,Y,Y,Y,Y,Y
-build_plugins,@@ohos/build_plugins,Y,Y,Y,Y,Y
+build_plugins,@ohos/build_plugins,Y,Y,Y,Y,Y
+app_framework,@ohos/app_framework,Y,Y,Y,Y,Y
