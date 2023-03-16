@@ -46,6 +46,6 @@
   <project path="third_party/glib" name="third_party_glib" remote="openharmony" revision="master" />
   <project path="third_party/gettext" name="third_party_gettext" remote="openharmony" revision="master" />
   <project path="third_party/libffi" name="third_party_libffi" remote="openharmony" revision="master" />
-  <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="master" />  
-
+  <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="master" />
+  <project path="third_party/libxml2" name="third_party_libxml2" remote="openharmony" revision="master" />
 </manifest>
