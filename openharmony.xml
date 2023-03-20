@@ -38,6 +38,7 @@
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20230307" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20230307" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20230307" />
+  <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="776d12f80c2ae6b81173a838c4c79c033f641777" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="weekly_20230307" />
   <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="weekly_20230307" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="weekly_20230307" />

@@ -40,6 +40,7 @@
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="master" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="master" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="master" />
+  <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="master" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="master" />
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="master" />
   <project path="third_party/libpng" name="third_party_libpng" remote="openharmony" revision="master" />
