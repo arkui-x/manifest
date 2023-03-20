@@ -19,4 +19,5 @@
   <project path="plugins" name="plugins" />
   <project path="interface/sdk" name="interface_sdk" />
   <project path="build_plugins" name="build_plugins" />
+  <project path="productdefine/arkui-x" name="productdefine" />
 </manifest>
