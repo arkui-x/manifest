@@ -28,6 +28,7 @@
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="master" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="master" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="master" />
+  <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="master" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="master" />
   <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="master" />
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="master" />
@@ -40,6 +41,7 @@
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="master" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="master" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="master" />
+  <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="master" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="master" />
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="master" />
   <project path="third_party/libpng" name="third_party_libpng" remote="openharmony" revision="master" />
@@ -49,4 +51,5 @@
   <project path="third_party/libffi" name="third_party_libffi" remote="openharmony" revision="master" />
   <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="master" />
   <project path="third_party/libxml2" name="third_party_libxml2" remote="openharmony" revision="master" />
+  <project path="third_party/sqlite" name="third_party_sqlite" remote="openharmony" revision="master" />
 </manifest>
