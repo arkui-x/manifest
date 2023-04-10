@@ -45,7 +45,7 @@
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="weekly_20230404" />
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="weekly_20230404" />
   <project path="third_party/libpng" name="third_party_libpng" remote="openharmony" revision="weekly_20230404" />
-  <project path="third_party/json" name="third_party_json" remote="openharmony" revision="weekly_20230404" />
+  <project path="third_party/json" name="third_party_json" remote="openharmony" revision="05d357ae78297a63034209a3c0679457fb5716a1" />
   <project path="third_party/glib" name="third_party_glib" remote="openharmony" revision="weekly_20230404" />
   <project path="third_party/gettext" name="third_party_gettext" remote="openharmony" revision="weekly_20230404" />
   <project path="third_party/libffi" name="third_party_libffi" remote="openharmony" revision="weekly_20230404" />
