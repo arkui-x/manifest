@@ -39,6 +39,7 @@
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="master" />
   <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="master" />
+  <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="master" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="master" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="master" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="master" />

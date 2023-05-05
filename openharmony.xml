@@ -35,6 +35,7 @@
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20230502" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20230502" />
+  <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="14ad38cd011f8caf812dee43e94a14a4b085da90" />
   <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="977ae2e4591a212f141f3fd06e091bdb694ca824" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20230425" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="fbbd64fed05835421a712b2530e2c559a071cc4e" />
