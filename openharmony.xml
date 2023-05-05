@@ -55,8 +55,7 @@
   <project path="developtools/integration_verification" name="developtools_integration_verification" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="weekly_20230502" />
-  <project path="build" name="build" remote="openharmony" revision="08709befee4e45b5d87e79aacfb11437c8322fdd">
-    <linkfile dest="build.sh" src="build_scripts/build.sh"/>
+  <project path="build" name="build" remote="openharmony" revision="29a21cfd56b7cc014c52bf59097b97df35b7e085">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
 </manifest>
