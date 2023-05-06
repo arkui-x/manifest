@@ -51,7 +51,7 @@
   <project path="third_party/libffi" name="third_party_libffi" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/libxml2" name="third_party_libxml2" remote="openharmony" revision="weekly_20230502" />
-  <project path="third_party/sqlite" name="third_party_sqlite" remote="openharmony" revision="weekly_20230502" />
+  <project path="third_party/sqlite" name="third_party_sqlite" remote="openharmony" revision="44e2464b5b9e119751a70b35db299a9492e243f6" />
   <project path="developtools/integration_verification" name="developtools_integration_verification" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="weekly_20230502" />
