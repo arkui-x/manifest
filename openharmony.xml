@@ -56,6 +56,7 @@
   <project path="developtools/integration_verification" name="developtools_integration_verification" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="weekly_20230502" />
+  <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="c951dc31eee87b7cceed43284ad7f7ddf277b9ed" />
   <project path="build" name="build" remote="openharmony" revision="29a21cfd56b7cc014c52bf59097b97df35b7e085">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
