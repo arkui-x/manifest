@@ -54,4 +54,5 @@
   <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="master" />
   <project path="third_party/libxml2" name="third_party_libxml2" remote="openharmony" revision="master" />
   <project path="third_party/sqlite" name="third_party_sqlite" remote="openharmony" revision="master" />
+  <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="master" />
 </manifest>
