@@ -38,7 +38,7 @@
   <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="14ad38cd011f8caf812dee43e94a14a4b085da90" />
   <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="977ae2e4591a212f141f3fd06e091bdb694ca824" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="weekly_20230502" />
-  <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20230425" />
+  <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20230502" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="fbbd64fed05835421a712b2530e2c559a071cc4e" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20230502" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="weekly_20230502" />
@@ -57,7 +57,7 @@
   <project path="developtools/integration_verification" name="developtools_integration_verification" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="weekly_20230502" />
-  <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="c951dc31eee87b7cceed43284ad7f7ddf277b9ed" />
+  <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="6ba8289cf0b07e62accbea37f87abad9b7e2a5c6" />
   <project path="build" name="build" remote="openharmony" revision="29a21cfd56b7cc014c52bf59097b97df35b7e085">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
