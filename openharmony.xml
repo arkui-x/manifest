@@ -35,8 +35,8 @@
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20230502" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20230502" />
-  <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="14ad38cd011f8caf812dee43e94a14a4b085da90" />
-  <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="977ae2e4591a212f141f3fd06e091bdb694ca824" />
+  <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="9fda86a692065675a7515ece9a2815f4a309ca59" />
+  <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="a283d2edf73c2d0711d0ccbb66f511f99681d700" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="weekly_20230502" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20230502" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="fbbd64fed05835421a712b2530e2c559a071cc4e" />
@@ -53,7 +53,7 @@
   <project path="third_party/libffi" name="third_party_libffi" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/libxml2" name="third_party_libxml2" remote="openharmony" revision="weekly_20230502" />
-  <project path="third_party/sqlite" name="third_party_sqlite" remote="openharmony" revision="44e2464b5b9e119751a70b35db299a9492e243f6" />
+  <project path="third_party/sqlite" name="third_party_sqlite" remote="openharmony" revision="4831b46e6cd71229e72f6f929940337d8cc4fe35" />
   <project path="developtools/integration_verification" name="developtools_integration_verification" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="weekly_20230502" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="weekly_20230502" />
