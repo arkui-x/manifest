@@ -4,7 +4,7 @@
 
   <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="661e87550a767dcf194b6fbb16c9a068505c1737" />
   <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="weekly_20230509" />
-  <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="f9cd6a885695d24d2b6ff21e120c40e27ccca312" />
+  <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="4720b6b1f40bfb1189fdc325e145eda3f337d67d" />
   <project path="foundation/filemanagement/file_api" name="filemanagement_file_api" remote="openharmony" revision="weekly_20230509" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace_ets2bundle" remote="openharmony" revision="weekly_20230509" />
   <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="weekly_20230509" />
