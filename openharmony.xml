@@ -35,8 +35,8 @@
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20230516" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20230516" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20230516" />
-  <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="4e28b2dd90b6c4cfd9262086ba3d949275e23821" />
-  <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="9f81901fd21a7efc21809fe2f36c58a7b836c421" />
+  <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="25b247b7522fb2165e285c0a8021c95b1fefcc50" />
+  <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="1477bd6d8537b2d9a9c5944fa9c1197a71417a6b" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="weekly_20230516" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20230509" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20230509" />
