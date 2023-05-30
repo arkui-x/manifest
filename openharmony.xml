@@ -20,7 +20,7 @@
   <project path="third_party/libuv" name="third_party_libuv" remote="openharmony" revision="weekly_20230523" />
   <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="weekly_20230523" />
   <project path="third_party/node" name="third_party_node" remote="openharmony" revision="weekly_20230523" />
-  <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="weekly_20230425" />
+  <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="weekly_20230523" />
   <project path="third_party/parse5" name="third_party_parse5" remote="openharmony" revision="weekly_20230523" />
   <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="weekly_20230523" />
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="weekly_20230523" />
