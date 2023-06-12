@@ -27,7 +27,7 @@
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="weekly_20230606" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20230606" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20230606" />
-  <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="weekly_20230530" />
+  <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="weekly_20230606" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20230530" />
   <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20230530" />
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20230530" />
