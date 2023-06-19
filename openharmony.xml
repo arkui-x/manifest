@@ -23,16 +23,16 @@
   <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/parse5" name="third_party_parse5" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="weekly_20230613" />
-  <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="weekly_20230530" />
+  <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20230613" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20230606" />
   <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="weekly_20230606" />
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="weekly_20230613" />
-  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20230530" />
-  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20230530" />
-  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="1eed7940b4e98b1424b597ed9902d504d25c9aec" />
-  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="19c6694faa4e2dcf52627bd9657966d79fc33eef" />
+  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20230613" />
+  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="9555e82b9cedb6e95215fd52f747d58c689b6d8d" />
+  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20230613" />
+  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20230613" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20230613" />
@@ -59,7 +59,7 @@
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="weekly_20230613" />
-  <project path="build" name="build" remote="openharmony" revision="4f70d27750ae4ee00c3aec5fd5fb087e7bf4a196">
+  <project path="build" name="build" remote="openharmony" revision="60b63af898cfbe2eb82537c5a550744b664528fc">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
 </manifest>
