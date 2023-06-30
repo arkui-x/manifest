@@ -13,7 +13,7 @@
   <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="weekly_20230626" />
-  <project path="third_party/flutter" name="third_party_flutter" remote="openharmony" revision="weekly_20230626" />
+  <project path="third_party/flutter" name="third_party_flutter" remote="openharmony" revision="911e1a7165ee7d2a8480a90ef79a380020cb2e49" />
   <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="weekly_20230626" />
@@ -30,7 +30,7 @@
   <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="weekly_20230613" />
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="weekly_20230613" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20230613" />
-  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="9555e82b9cedb6e95215fd52f747d58c689b6d8d" />
+  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="3cf65f9f766168a0eb88fb98181af22d7382c6dc" />
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20230613" />
   <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20230613" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20230626" />
