@@ -3,7 +3,7 @@
   <remote fetch="https://gitee.com/openharmony/" name="openharmony"  review="https://gitee.com/openharmony/" />
 
   <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="weekly_20230626" />
-  <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="weekly_20230613" />
+  <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="weekly_20230626" />
   <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="weekly_20230627" />
   <project path="foundation/filemanagement/file_api" name="filemanagement_file_api" remote="openharmony" revision="weekly_20230626" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace_ets2bundle" remote="openharmony" revision="weekly_20230626" />
@@ -27,12 +27,12 @@
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20230626" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20230606" />
-  <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="weekly_20230613" />
+  <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="weekly_20230626" />
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="weekly_20230613" />
-  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20230613" />
-  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="3cf65f9f766168a0eb88fb98181af22d7382c6dc" />
+  <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20230626" />
+  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20230626" />
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="2df35b269b586ad9e21e91a3f19ab03bbb6f9d30" />
-  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20230613" />
+  <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20230626" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20230626" />
@@ -44,7 +44,7 @@
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20230626" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="weekly_20230626" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="weekly_20230626" />
-  <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="weekly_20230613" />
+  <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/libpng" name="third_party_libpng" remote="openharmony" revision="weekly_20230626" />
