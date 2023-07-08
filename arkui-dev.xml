@@ -11,6 +11,7 @@
   <project path="community" name="community" />
   <project path="samples" name="samples" />
   <project path="test/xts" name="xts" />
+  <project path="test/testfwk/arkxtest" name="arkxtest" />
   <project path="docs" name="docs" />
   <project path="developtools/ace_tools" name="cli" />
   <project path="foundation/appframework" name="app_framework" />
