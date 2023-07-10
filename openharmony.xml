@@ -60,7 +60,7 @@
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="weekly_20230626" />
   <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="weekly_20230626" />
   <project path="developtools/hapsigner" name="developtools_hapsigner" remote="openharmony" revision="weekly_20230626" />
-  <project path="build" name="build" remote="openharmony" revision="9fe5c9906bd25b40f473cadb70e9783aa48a6be2">
+  <project path="build" name="build" remote="openharmony" revision="b87d075cf1255f5a66d2144beef4640d1651ced0">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
 </manifest>
