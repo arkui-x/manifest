@@ -4,10 +4,6 @@
   <default remote="origin" revision="arkui-dev" sync-j="4" />
 
   <include name="openharmony-master.xml" />
-  <project path="build" name="build">
-    <linkfile dest="build.sh" src="build_scripts/build.sh"/>
-    <linkfile dest=".gn" src="core/gn/dotfile.gn" />
-  </project>
   <project path="community" name="community" />
   <project path="samples" name="samples" />
   <project path="test/xts" name="xts" />
@@ -19,6 +15,8 @@
   <project path="foundation/arkui/ace_engine/adapter/ios" name="arkui_for_ios" />
   <project path="plugins" name="plugins" />
   <project path="interface/sdk" name="interface_sdk" />
-  <project path="build_plugins" name="build_plugins" />
-  <project path="productdefine/arkui-x" name="productdefine" />
+  <project path="build_plugins" name="build_plugins">
+    <linkfile dest="build.sh" src="build_scripts/build.sh"/>
+  </project>
+  <project path="productdefine/common" name="productdefine" />
 </manifest>
