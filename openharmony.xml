@@ -37,7 +37,7 @@
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20230704" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="weekly_20230704" />
   <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="weekly_20230704" />
-  <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="c6e05ffe26e07b6883611a57f48f3badcf14f2ea" />
+  <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="a24c8a4932698462325de9f6173e602d2f7e5813" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="weekly_20230530" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20230606" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20230606" />
