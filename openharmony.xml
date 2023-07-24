@@ -40,7 +40,7 @@
   <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="weekly_20230704" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="3ab911feb5bb5fdb18133d07ab19af73ea06b3fe" />
-  <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20230606" />
+  <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
