@@ -2,13 +2,13 @@
 
 简体中文 | [English](README-EN.md)
 
-### ArkUI-X介绍
+## ArkUI-X项目
 
-ArkUI跨OS平台项目。本项目配套OpenHarmony中的ArkUI相关项目，将ArkUI开发框架扩展到不同的OS平台，比如Android, iOS, Windows等， 让开发者基于ArkUI，可复用大部分的应用代码（UI以及主要应用逻辑）并可以部署到相应的OS平台，降低跨平台应用开发成本。
+ArkUI-X项目进一步将ArkUI开发框架扩展到了多个OS平台：目前支持OpenHarmony、HarmonyOS、Android、 iOS，后续会逐步增加更多平台支持。开发者基于一套主代码，就可以构建支持多平台的精美、高性能应用。
 
 开源代码仓库地址：[https://gitee.com/arkui-x](https://gitee.com/arkui-x)。
 
-### 前提条件
+## 前提条件
 
 1. 注册码云gitee账号。
 
@@ -30,7 +30,7 @@ ArkUI跨OS平台项目。本项目配套OpenHarmony中的ArkUI相关项目，将
    pip3 install -i https://repo.huaweicloud.com/repository/pypi/simple requests
    ```
 
-### 操作步骤
+## 操作步骤
 
 - **ArkUI-X主干代码获取**
 
@@ -73,86 +73,108 @@ ArkUI跨OS平台项目。本项目配套OpenHarmony中的ArkUI相关项目，将
   repo sync -c --no-tags -j12
   ```
 
-# 源码目录简介
+# 代码工程介绍
 
-下表是ArkUI-X源码目录：
+## 代码结构及仓库结构
 
-<table><thead align="left"><tr id="row198162047192810"><th class="cellrowborder" valign="top" width="50%" id="mcps1.2.3.1.1"><p id="p690319291299"><a name="p690319291299"></a><a name="p690319291299"></a>目录名</p>
-</th>
-<th class="cellrowborder" valign="top" width="50%" id="mcps1.2.3.1.2"><p id="p5903122962918"><a name="p5903122962918"></a><a name="p5903122962918"></a>描述</p>
-</th>
-</tr>
-</thead>
-<tbody><tr id="row1981674719280"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p69031429162912"><a name="p69031429162912"></a><a name="p69031429162912"></a>samples</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p090352912914"><a name="p090352912914"></a><a name="p090352912914"></a>应用程序样例</p>
-</td>
-</tr>
-<tr id="row5816747132817"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p99031129112918"><a name="p99031129112918"></a><a name="p99031129112918"></a>developtools</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p790472962914"><a name="p790472962914"></a><a name="p790472962914"></a>ArkUI范式编译转换工具和跨平台应用构建工具</p>
-</td>
-</tr>
-<tr id="row1134218692910"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p4904112910295"><a name="p4904112910295"></a><a name="p4904112910295"></a>build</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p1090482942911"><a name="p1090482942911"></a><a name="p1090482942911"></a>ArkUI跨平台项目构建和配置脚本</p>
-</td>
-</tr>
-<tr id="row8166154261316"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p1216719425130"><a name="p1216719425130"></a><a name="p1216719425130"></a>docs</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p17167134217134"><a name="p17167134217134"></a><a name="p17167134217134"></a>开发者文档</p>
-</td>
-</tr>
-<tr id="row8166154261316"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p1216719425130"><a name="p1216719425130"></a><a name="p1216719425130"></a>base</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p17167134217134"><a name="p17167134217134"></a><a name="p17167134217134"></a>基础能力模块，比如：资源管理</p>
-</td>
-</tr>
-<tr id="row1841618902919"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p1390462902910"><a name="p1390462902910"></a><a name="p1390462902910"></a>arkcompiler</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p1390432914296"><a name="p1390432914296"></a><a name="p1390432914296"></a>方舟编译工具、编译器、运行时</p>
-</td>
-</tr>
-<tr id="row841620912298"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p119041629182919"><a name="p119041629182919"></a><a name="p119041629182919"></a>prebuilts</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p9904629132911"><a name="p9904629132911"></a><a name="p9904629132911"></a>预编译目录，python，nodejs，clang和cmake等</p>
-</td>
-</tr>
-<tr id="row164164992915"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p79042298298"><a name="p79042298298"></a><a name="p79042298298"></a>foundation</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p18904132922915"><a name="p18904132922915"></a><a name="p18904132922915"></a>ArkUI基础代码和Android/iOS/OpenHarmony平台适配层代码</p>
-</td>
-</tr>
-<tr id="row8166154261316"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p1216719425130"><a name="p1216719425130"></a><a name="p1216719425130"></a>plugins</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p17167134217134"><a name="p17167134217134"></a><a name="p17167134217134"></a>API插件管理</p>
-</td>
-</tr>
-<tr id="row194175972917"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p1904132912910"><a name="p1904132912910"></a><a name="p1904132912910"></a>community</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p390492919296"><a name="p390492919296"></a><a name="p390492919296"></a>社区运作管理</p>
-</td>
-</tr>
-<tr id="row24175915294"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p13904162992916"><a name="p13904162992916"></a><a name="p13904162992916"></a>third_party</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p6904829112917"><a name="p6904829112917"></a><a name="p6904829112917"></a>开源第三方组件</p>
-</td>
-</tr>
-<tr id="row8166154261316"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p1216719425130"><a name="p1216719425130"></a><a name="p1216719425130"></a>commonlibrary</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p17167134217134"><a name="p17167134217134"></a><a name="p17167134217134"></a>C++公共基础类库</p>
-</td>
-</tr>
-<tr id="row8166154261316"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p1216719425130"><a name="p1216719425130"></a><a name="p1216719425130"></a>test</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p17167134217134"><a name="p17167134217134"></a><a name="p17167134217134"></a>测试套</p>
-</td>
-</tr>
-<tr id="row734319617292"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p09056291290"><a name="p09056291290"></a><a name="p09056291290"></a>build.sh</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p1790542912290"><a name="p1790542912290"></a><a name="p1790542912290"></a>编译脚本入口文件</p>
-</td>
-</tr>
-</tbody>
-</table>
+代码工程的目录结构如下：
+```
+├── arkcompiler                 // 方舟编译器
+├── base                        // 基础能力
+├── build                       // 项目构建和配置脚本
+├── build_plugins               // 跨平台构建插件
+├── commonlibrary               // 公共基础库
+├── community                   // 社区相关
+├── developtools                // 开发者工具
+├── docs                        // 配套文档
+├── foundation
+│   ├── appframework            // 应用框架兼容适配层
+│   ├── arkui                   // ArkUI引擎
+│   ├── communication           // 通信能力
+│   ├── distributeddatamgr      // 分布式数据管理
+│   ├── filemanagement          // 文件管理
+│   ├── graphic                 // 图形引擎
+│   └── multimedia              // 多媒体
+├── interface                   // 接口声明
+├── plugins                     // 插件管理与实现
+├── prebuilts                   // 预编译目录
+├── productdefine               // 产品形态配置
+├── samples                     // 示例代码
+├── test                        // 测试框架与测试套件用例
+└── third_party                 // 三方库
+```
 
+具体的代码结构及仓指向，见下表：
+
+| 目录路径                                  | 描述                                                  | 代码仓位置                                                   |
+| ----------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| build                                     | 项目构建和配置脚本                         | [OpenHarmony/build](https://gitee.com/openharmony/build) |
+| build_plugins                             | 跨平台构建插件                        | [ArkUI-X/build_plugins](https://gitee.com/arkui-x/build_plugins) |
+| samples                                   | 应用程序样例                                          | [ArkUI-X/samples](https://gitee.com/arkui-x/samples) |
+| community                                 | 社区运作管理                                          | [ArkUI-X/community](https://gitee.com/arkui-x/community) |
+| docs                                      | 说明文档                                              | [ArkUI-X/docs](https://gitee.com/arkui-x/docs) |
+| developtools/ace_tools                    | 跨平台应用构建命令行工具                                      | [ArkUI-X/cli](https://gitee.com/arkui-x/cli) |
+| foundation/appframework | 应用框架兼容适配层    | [ArkUI-X/app_framework](https://gitee.com/arkui-x/app_framework) |
+| foundation/arkui/ace_engine/adapter/android | Android平台适配代码                                   | [ArkUI-X/arkui_for_android](https://gitee.com/arkui-x/arkui_for_android) |
+| foundation/arkui/ace_engine/adapter/ios     | iOS平台适配代码                                       | [ArkUI-X/arkui_for_ios](https://gitee.com/arkui-x/arkui_for_ios) |
+| foundation/arkui/ace_engine                 | ArkUI引擎核心代码 | [OpenHarmony/arkui_ace_engine](https://gitee.com/openharmony/arkui_ace_engine) |
+| foundation/arkui/napi                       | Native API扩展机制                                    | [OpenHarmony/arkui_napi](https://gitee.com/openharmony/arkui_napi) |
+| foundation/graphic/graphic_2d               | 2D图形基础库                                    | [OpenHarmony/graphic_graphic_2d](https://gitee.com/openharmony/graphic_graphic_2d) |
+| arkcompiler/ets_frontend                          | 方舟前端工具                        | [OpenHarmony/arkcompiler_ets_frontend](https://gitee.com/openharmony/arkcompiler_ets_frontend) |
+| arkcompiler/ets_runtime                          | 方舟ArkTS运行时                        | [OpenHarmony/arkcompiler_ets_runtime](https://gitee.com/openharmony/arkcompiler_ets_runtime) |
+| arkcompiler/runtime_core                          | 方舟编译器运行时                        | [OpenHarmony/arkcompiler_runtime_core](https://gitee.com/openharmony/arkcompiler_runtime_core) |
+| arkcompiler/toolchain                          | 调试调优工具                        | [OpenHarmony/arkcompiler_toolchain](https://gitee.com/openharmony/arkcompiler_toolchain) |
+| prebuilts                                 | 预编译目录，python，nodejs，clang和cmake等            | 通过脚本预下载                                               |
+| third_party                               | 开源第三方组件（统一复用OpenHarmony代码仓）           | 引用开源三方库集合 |
+| commonlibrary/c_utils                              | C++公共基础类库                                          | [OpenHarmony/commonlibrary_c_utils](https://gitee.com/openharmony/commonlibrary_c_utils) |
+| base/global/resource_management                          | 全球化资源管理                                          | [OpenHarmony/global_resource_management](https://gitee.com/openharmony/global_resource_management) |
+| plugins                              | API插件管理，OpenHarmony API插件实现                                  | [ArkUI-X/plugins](https://gitee.com/arkui-x/plugins) |
+| test/xts               | ArkUI-X应用测试套件      | [ArkUI-X/xts](https://gitee.com/arkui-x/xts) |
+| test/testfwk/arkxtest                | ArkUI-X测试框架       | [ArkUI-X/arkxtest](https://gitee.com/arkui-x/arkxtest) |
+| interface/sdk                | ArkUI-X SDK相关配置       | [ArkUI-X/interface_sdk](https://gitee.com/arkui-x/arkxtest) |
+| productdefine/common               | ArkUI-X产品形态定义       | [ArkUI-X/productdefine](https://gitee.com/arkui-x/productdefine) |
+
+> 说明：OpenHarmony相关代码仓，指向OpenHarmony master分支的固定tag点，定期同步，默认按照OpenHarmony的Weekly分支频率进行同步。
+
+## ArkUI引擎核心代码仓目录结构
+
+ArkUI引擎核心代码仓 `ace_engine` 的目录结构以及每个目录的内容如下：
+
+```
+foundation/arkui/ace_engine
+├── ace_config.gni      // 全局配置文件
+├── adapter             // 平台适配层
+│   ├── android         // Android平台适配，独立仓
+│   │   ├── build
+│   │   ├── capability
+│   │   ├── entrance
+│   │   ├── stage
+│   │   └── osal
+│   ├── ios             // iOS平台适配，独立仓
+│   │   ├── build
+│   │   ├── capability
+│   │   ├── entrance
+│   │   ├── stage
+│   │   └── osal
+│   ├── ohos            // OpenHarmony平台适配
+│   └── preview         // 预览器平台适配
+├── build               // 编译配置
+│   ├── ace_gen_obj.gni
+│   ├── ace_lib.gni
+│   ├── BUILD.gn
+│   ├── search.py
+│   └── tools
+├── BUILD.gn            // 全局编译配置
+├── frameworks          // 引擎框架层
+│   ├── base            // base库
+│   ├── bridge          // 前端桥接
+│   └── core            // 引擎核心实现
+├── interfaces          // 通用对外接口
+│   └── napi
+│       └── kits
+├── LICENSE
+├── OAT.xml
+├── README.md
+├── README_zh.md
+└── test                // 测试相关
+```
