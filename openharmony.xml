@@ -26,7 +26,7 @@
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
-  <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20230606" />
+  <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
