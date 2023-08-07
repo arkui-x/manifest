@@ -53,6 +53,7 @@
   <project path="developtools/integration_verification" name="developtools_integration_verification" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
+  <project path="third_party/libphonenumber" name="third_party_libphonenumber" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="developtools/hapsigner" name="developtools_hapsigner" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="build" name="build" remote="openharmony" revision="OpenHarmony-4.0-Beta2">
