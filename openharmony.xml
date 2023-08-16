@@ -39,6 +39,7 @@
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="monthly_20230815" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="monthly_20230815" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="monthly_20230815" />
+  <project path="base/web/webview" name="web_webview" remote="openharmony" revision="monthly_20230815" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="monthly_20230815" />
   <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="monthly_20230815" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
