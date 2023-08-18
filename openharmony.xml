@@ -34,8 +34,8 @@
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="monthly_20230815" />
   <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="monthly_20230815" />
   <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="monthly_20230815" />
-  <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
-  <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
+  <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="monthly_20230815" />
+  <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="monthly_20230815" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="monthly_20230815" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="monthly_20230815" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="monthly_20230815" />
