@@ -16,7 +16,7 @@
   <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="weekly_20230919" />
   <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="weekly_20230919" />
   <project path="third_party/libuv" name="third_party_libuv" remote="openharmony" revision="weekly_20230919" />
-  <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="weekly_20230919" />
+  <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="da0612b31aa9b091709fdc6bf7785946855953cc" />
   <project path="third_party/node" name="third_party_node" remote="openharmony" revision="weekly_20230919" />
   <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="weekly_20230919" />
   <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="weekly_20230919" />
