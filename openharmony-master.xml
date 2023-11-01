@@ -56,6 +56,7 @@
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="master" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="master" />
   <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="master" />
+  <project path="third_party/libphonenumber" name="third_party_libphonenumber" remote="openharmony" revision="master" />
   <project path="developtools/hapsigner" name="developtools_hapsigner" remote="openharmony" revision="master" />
   <project path="build" name="build" remote="openharmony" revision="master">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
