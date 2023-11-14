@@ -59,6 +59,13 @@
   <project path="third_party/libphonenumber" name="third_party_libphonenumber" remote="openharmony" revision="master" />
   <project path="third_party/abseil-cpp" name="third_party_abseil-cpp" remote="openharmony" revision="master" />
   <project path="developtools/hapsigner" name="developtools_hapsigner" remote="openharmony" revision="master" />
+  <project path="base/global/system_resources" name="utils_system_resources" remote="openharmony" revision="master" />
+  <project path="interface/sdk-js" name="interface_sdk-js" remote="openharmony" revision="master" />
+  <project path="developtools/packing_tool" name="developtools_packing_tool" remote="openharmony" revision="master" />
+  <project path="developtools/global_resource_tool" name="developtools_global_resource_tool" remote="openharmony" revision="master" />
+  <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="master" />
+  <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="master" />
+  <project path="third_party/parse5" name="third_party_parse5" remote="openharmony" revision="master" />
   <project path="build" name="build" remote="openharmony" revision="master">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
