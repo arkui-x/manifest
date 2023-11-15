@@ -10,15 +10,15 @@
   <project path="third_party/bounds_checking_function" name="third_party_bounds_checking_function" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/css-what" name="third_party_css-what" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="weekly_20231031" />
-  <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="weekly_20231031" />
+  <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="4388e639a0ec7e6f79b78a24beffef643b7f33b4" />
   <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/flutter" name="third_party_flutter" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/libuv" name="third_party_libuv" remote="openharmony" revision="weekly_20231031" />
-  <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="weekly_20231031" />
+  <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="c7902175d792cffd1a3ef0dc34823f933f98d4d0" />
   <project path="third_party/node" name="third_party_node" remote="openharmony" revision="weekly_20231031" />
-  <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="weekly_20231031" />
+  <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="8c5bd4d4e5639f7ed7d52f9cc71cf7a037480e21" />
   <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="weekly_20231031" />
@@ -49,14 +49,14 @@
   <project path="third_party/glib" name="third_party_glib" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/libffi" name="third_party_libffi" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="weekly_20231031" />
-  <project path="third_party/libxml2" name="third_party_libxml2" remote="openharmony" revision="weekly_20231031" />
+  <project path="third_party/libxml2" name="third_party_libxml2" remote="openharmony" revision="16ef6c530ce6b6ce663a5f8e7c1b3431e43746d1" />
   <project path="third_party/sqlite" name="third_party_sqlite" remote="openharmony" revision="weekly_20231031" />
   <project path="developtools/integration_verification" name="developtools_integration_verification" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/libphonenumber" name="third_party_libphonenumber" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/abseil-cpp" name="third_party_abseil-cpp" remote="openharmony" revision="weekly_20231031" />
-  <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="weekly_20231031" />
+  <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="1fa95aa5c9f87f3c9ac06d701d0228c1af0f0c78" />
   <project path="developtools/hapsigner" name="developtools_hapsigner" remote="openharmony" revision="weekly_20231031" />
   <project path="build" name="build" remote="openharmony" revision="weekly_20231031">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
