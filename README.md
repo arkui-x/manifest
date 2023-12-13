@@ -114,6 +114,7 @@ ArkUI-X项目进一步将ArkUI开发框架扩展到了多个OS平台：目前支
 | interface/sdk                | ArkUI-X SDK相关配置       | [ArkUI-X/interface_sdk](https://gitee.com/arkui-x/arkxtest) |
 | productdefine/common               | ArkUI-X产品形态定义       | [ArkUI-X/productdefine](https://gitee.com/arkui-x/productdefine) |
 
+> 说明：OpenHarmony相关代码仓，指向OpenHarmony master分支的固定tag点，定期同步，默认按照OpenHarmony的Weekly分支频率进行同步。
 
 ## ArkUI引擎核心代码仓目录结构
 
