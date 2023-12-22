@@ -37,7 +37,7 @@
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="weekly_20231031" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20231031" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20231031" />
-  <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20231031" />
+  <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20231218" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="weekly_20231031" />
   <project path="base/web/webview" name="web_webview" remote="openharmony" revision="weekly_20231031" />
   <project path="base/security/crypto_framework" name="security_crypto_framework" remote="openharmony" revision="weekly_20231031" />
@@ -59,10 +59,10 @@
   <project path="third_party/abseil-cpp" name="third_party_abseil-cpp" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="1fa95aa5c9f87f3c9ac06d701d0228c1af0f0c78" />
   <project path="developtools/hapsigner" name="developtools_hapsigner" remote="openharmony" revision="weekly_20231031" />
-  <project path="base/global/system_resources" name="utils_system_resources" remote="openharmony" revision="weekly_20231031" />
+  <project path="base/global/system_resources" name="utils_system_resources" remote="openharmony" revision="weekly_20231218" />
   <project path="interface/sdk-js" name="interface_sdk-js" remote="openharmony" revision="weekly_20231031" />
   <project path="developtools/packing_tool" name="developtools_packing_tool" remote="openharmony" revision="weekly_20231031" />
-  <project path="developtools/global_resource_tool" name="developtools_global_resource_tool" remote="openharmony" revision="weekly_20231031" />
+  <project path="developtools/global_resource_tool" name="developtools_global_resource_tool" remote="openharmony" revision="weekly_20231218" />
   <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="weekly_20231031" />
   <project path="third_party/parse5" name="third_party_parse5" remote="openharmony" revision="weekly_20231031" />
