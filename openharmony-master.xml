@@ -42,6 +42,7 @@
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="master" />
   <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="master" />
   <project path="base/security/crypto_framework" name="security_crypto_framework" remote="openharmony" revision="master" />
+  <project path="base/security/certificate_framework" name="security_certificate_framework" remote="openharmony" revision="master" />
   <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="master" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="master" />
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="master" />
