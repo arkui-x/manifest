@@ -14,7 +14,7 @@
   <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="weekly_20240108" />
   <project path="third_party/flutter" name="third_party_flutter" remote="openharmony" revision="weekly_20240101" />
   <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="weekly_20240108" />
-  <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="weekly_20240108" />
+  <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="weekly_20240122" />
   <project path="third_party/libuv" name="third_party_libuv" remote="openharmony" revision="weekly_20240108" />
   <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="weekly_20240108" />
   <project path="third_party/node" name="third_party_node" remote="openharmony" revision="weekly_20240108" />
