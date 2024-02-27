@@ -68,6 +68,12 @@
   <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="master" />
   <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="master" />
   <project path="third_party/parse5" name="third_party_parse5" remote="openharmony" revision="master" />
+  <project path="base/notification/eventhandler" name="notification_eventhandler" remote="openharmony" revision="master" />
+  <project path="foundation/multimedia/player_framework" name="multimedia_player_framework" remote="openharmony" revision="master" />
+  <project path="foundation/multimedia/media_foundation" name="multimedia_media_foundation" remote="openharmony" revision="master" />
+  <project path="foundation/multimedia/audio_framework" name="multimedia_audio_framework" remote="openharmony" revision="master" />
+  <project path="foundation/multimedia/drm_framework" name="multimedia_drm_framework" remote="openharmony" revision="master" />
+  <project path="foundation/multimedia/av_session" name="multimedia_av_session" remote="openharmony" revision="master" />
   <project path="build" name="build" remote="openharmony" revision="master">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>

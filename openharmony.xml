@@ -22,9 +22,9 @@
   <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="weekly_20240219" />
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="weekly_20240219" />
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="weekly_20240219" />
-  <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="weekly_20240219" />
+  <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="9dbea9c5db8981eb82ee1ad6aa87b1a8fec2cbd8" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20240219" />
-  <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="weekly_20240219" />
+  <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="c6b1eb32e7e8f776d75510f26c6ce22fd64dc854" />
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="weekly_20240219" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20240219" />
   <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20240219" />
@@ -67,6 +67,12 @@
   <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="weekly_20240219" />
   <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="weekly_20240219" />
   <project path="third_party/parse5" name="third_party_parse5" remote="openharmony" revision="weekly_20240219" />
+  <project path="base/notification/eventhandler" name="notification_eventhandler" remote="openharmony" revision="aaad3e8ccbbc7a396cbcfd90b571ab493cc36d32" />
+  <project path="foundation/multimedia/player_framework" name="multimedia_player_framework" remote="openharmony" revision="weekly_20240219" />
+  <project path="foundation/multimedia/media_foundation" name="multimedia_media_foundation" remote="openharmony" revision="weekly_20240219" />
+  <project path="foundation/multimedia/audio_framework" name="multimedia_audio_framework" remote="openharmony" revision="weekly_20240219" />
+  <project path="foundation/multimedia/drm_framework" name="multimedia_drm_framework" remote="openharmony" revision="weekly_20240219" />
+  <project path="foundation/multimedia/av_session" name="multimedia_av_session" remote="openharmony" revision="weekly_20240219" />  
   <project path="build" name="build" remote="openharmony" revision="weekly_20240219">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
