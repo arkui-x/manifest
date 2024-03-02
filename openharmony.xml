@@ -27,8 +27,8 @@
   <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="c6b1eb32e7e8f776d75510f26c6ce22fd64dc854" />
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="weekly_20240219" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="weekly_20240219" />
-  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="weekly_20240219" />
-  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="weekly_20240219" />
+  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="c686bc41139e277fb861affd58b25a9c8303f365" />
+  <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="2409a0cf2e727dfa04b4f19ca2697dd7c8904cdc" />
   <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20240219" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20240219" />
