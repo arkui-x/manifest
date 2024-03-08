@@ -38,7 +38,7 @@
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20240219" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20240219" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20240219" />
-  <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="weekly_20240219" />
+  <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="8a89ccfa82a4be82703719ce0dabcb5b7c144d0c" />
   <project path="base/web/webview" name="web_webview" remote="openharmony" revision="weekly_20240219" />
   <project path="base/security/crypto_framework" name="security_crypto_framework" remote="openharmony" revision="weekly_20240219" />
   <project path="base/security/certificate_framework" name="security_certificate_framework" remote="openharmony" revision="weekly_20240219" />
