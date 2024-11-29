@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="origin" review="https://gitee.com/arkui-x2/" />
-  <default remote="origin" revision="ArkUI-X-1.0.0-Release" sync-j="4" />
+  <remote fetch="." name="origin" review="https://gitee.com/arkui-x/" />
+  <default remote="origin" revision="arkui-dev" sync-j="4" />
 
-  <include name="openharmony.xml" />
+  <include name="openharmony-master.xml" />
   <project path="community" name="community" />
   <project path="samples" name="samples" />
   <project path="test/xts" name="xts" />

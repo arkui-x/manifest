@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openharmony" fetch="https://gitee.com/openharmony/" review="https://gitee.com/openharmony/"/>
+  <remote name="origin" fetch="." review="https://gitee.com/arkui-x2/"/>
+  
+  <default remote="origin" revision="ArkUI-X-1.0.0-Beta1" sync-j="4"/>
+  
+  <project name="app_framework" path="foundation/appframework" revision="9e09f9e9359b82c6be5381ca15adb1b75c27aaae" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="f025a3e7b1aaa03b63fd164332b5e3d1d8f5853b" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="8ad86aac34b9d3ca3d84ca887b012b152f5ebe40" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="arkxtest" path="test/testfwk/arkxtest" revision="ce5405c16058f164b6f2bbc21e10b7646a430fd1" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="build_plugins" revision="498c8154c2336b0a03bf640525b7e7415dae2b55" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1">
+    <linkfile src="build_scripts/build.sh" dest="build.sh"/>
+  </project>
+  <project name="cli" path="developtools/ace_tools" revision="6bf7a68af4f5886e48b8a2d3f05f37baaea467ea" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="community" revision="d4e01c2d0d9a04cbbb57ebdaa6884b1d37093459" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="docs" revision="3d019f64ca3bab6ffff1f170ee61a6d3d21e5302" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="interface_sdk" path="interface/sdk" revision="2cc914ada9dbf6bfa1322cc6dd4abd5568c04bc7" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="plugins" revision="9280692248f8acbbf5ad2f20d56292de30b4852a" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="productdefine" path="productdefine/common" revision="b67313b909f11325ec617b2d82e52b43ef31495e" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="samples" revision="f198eec2b41630d73f201a01bd8de779d59befac" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+  <project name="xts" path="test/xts" revision="2c8217d8050c4d1d6f6f2d0313951cc08cb767ee" upstream="ArkUI-X-1.0.0-Beta1" dest-branch="ArkUI-X-1.0.0-Beta1"/>
+</manifest>
