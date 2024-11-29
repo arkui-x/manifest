@@ -33,12 +33,15 @@
   <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="master" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="master" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="master" />
+  <project path="third_party/EGL" name="third_party_egl" remote="openharmony" revision="master" />
+  <project path="third_party/openGLES" name="third_party_opengles" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/udmf" name="distributeddatamgr_udmf" remote="openharmony" revision="master" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="weekly_20230530" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20230606" />
+  <project path="foundation/communication/bluetooth" name="communication_bluetooth" remote="openharmony" revision="master" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20230606" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="master" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="master" />
@@ -77,6 +80,7 @@
   <project path="foundation/multimedia/drm_framework" name="multimedia_drm_framework" remote="openharmony" revision="master" />
   <project path="foundation/multimedia/av_session" name="multimedia_av_session" remote="openharmony" revision="master" />
   <project path="foundation/resourceschedule/qos_manager" name="resourceschedule_qos_manager" remote="openharmony" revision="master" />
+  <project path="base/msdp/device_status" name="msdp_device_status" remote="openharmony" revision="master" />
   <project path="build" name="build" remote="openharmony" revision="master">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
