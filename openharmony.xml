@@ -24,6 +24,8 @@
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
+  <project path="third_party/EGL" name="third_party_egl" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
+  <project path="third_party/openGLES" name="third_party_opengles" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
