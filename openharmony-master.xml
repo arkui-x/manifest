@@ -33,6 +33,8 @@
   <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="master" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="master" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="master" />
+  <project path="third_party/EGL" name="third_party_egl" remote="openharmony" revision="master" />
+  <project path="third_party/openGLES" name="third_party_opengles" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/distributedfile" name="distributeddatamgr_file" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="master" />
   <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="master" />
