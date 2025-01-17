@@ -85,6 +85,7 @@
   <project path="foundation/multimodalinput/input" name="multimodalinput_input" remote="openharmony" revision="weekly_20250113" />
   <project path="base/msdp/device_status" name="msdp_device_status" remote="openharmony" revision="weekly_20250113" />
   <project path="base/time/time_service" name="time_time_service" remote="openharmony" revision="weekly_20241230" />
+  <project path="third_party/decimal.js" name="third_party_decimal.js" remote="openharmony" revision="weekly_20250113" />
   <project path="build" name="build" remote="openharmony" revision="weekly_20250113">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
