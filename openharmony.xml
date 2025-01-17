@@ -39,7 +39,7 @@
   <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="foundation/distributeddatamgr/kv_store" name="distributeddatamgr_kv_store" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
-  <project path="foundation/distributeddatamgr/udmf" name="distributeddatamgr_udmf" remote="openharmony" revision="f465d393c792035a6dbb1532648e22688ceb2f01" />
+  <project path="foundation/distributeddatamgr/udmf" name="distributeddatamgr_udmf" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="foundation/communication/bluetooth" name="communication_bluetooth" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
@@ -82,7 +82,7 @@
   <project path="foundation/multimedia/drm_framework" name="multimedia_drm_framework" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="foundation/multimedia/av_session" name="multimedia_av_session" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="foundation/resourceschedule/qos_manager" name="resourceschedule_qos_manager" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
-  <project path="foundation/multimodalinput/input" name="multimodalinput_input" remote="openharmony" revision="weekly_20240506" />
+  <project path="foundation/multimodalinput/input" name="multimodalinput_input" remote="openharmony" revision="OpenHarmony-5.0.2-Release" />
   <project path="base/msdp/device_status" name="msdp_device_status" remote="openharmony" revision="OpenHarmony_debug_20240704" />
   <project path="build" name="build" remote="openharmony" revision="OpenHarmony-5.0.2-Release">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
