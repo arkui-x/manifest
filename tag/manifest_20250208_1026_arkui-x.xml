@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openharmony" fetch="https://gitee.com/openharmony/" review="https://gitee.com/openharmony/"/>
+  <remote name="origin" fetch="." review="https://gitcode.com/arkui-x/"/>
+  
+  <default remote="origin" revision="ArkUI-X-5.0.2-Release" sync-j="4"/>
+  
+  <project name="app_framework" path="foundation/appframework" revision="7b8e0445ce487beae11b58988c754498edb68e1e" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="f5533784e371acf57b4f11c28a9048ee86e781a4" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="a2a5829462def50e0d926506c32e27df726c6062" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="arkxtest" path="test/testfwk/arkxtest" revision="bc7495103171e982ad0f85885b099421db7db754" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="build_plugins" revision="09e5d0c9b00d098126a4d39fe0fd90886794145f" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release">
+    <linkfile src="build_scripts/build.sh" dest="build.sh"/>
+  </project>
+  <project name="cli" path="developtools/ace_tools" revision="158fa7408c359f6dd7956172cc6a2b54305b0313" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="community" revision="dd1619a883ade08623901423b6ae114f0b1d4b8d" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="docs" revision="3e1fa592e9ef34737d88c9ece38b6e3bc27ad4a3" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="interface_sdk" path="interface/sdk" revision="d10f6bda2004e5c15f02ddce5138130098954253" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="plugins" revision="510f2c1c47d32b1472b316483cc60fb8ecccabaa" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="productdefine" path="productdefine/common" revision="70fee89eb9afe969eacd14a66437ae549c35e19a" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="samples" revision="4b0a918f3220e2aa36c5cfdc06cc8bc36c1f9d0e" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+  <project name="xts" path="test/xts" revision="f4b684396da5926b7855c3ea2b681f1a23d81720" upstream="ArkUI-X-5.0.2-Release" dest-branch="ArkUI-X-5.0.2-Release"/>
+</manifest>
