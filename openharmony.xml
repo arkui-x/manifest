@@ -42,15 +42,15 @@
   <project path="foundation/distributeddatamgr/udmf" name="distributeddatamgr_udmf" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="foundation/communication/bluetooth" name="communication_bluetooth" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
-  <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
+  <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20250310" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="base/web/webview" name="web_webview" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="base/security/crypto_framework" name="security_crypto_framework" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="base/security/certificate_framework" name="security_certificate_framework" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
-  <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="weekly_20250217" />
-  <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="weekly_20250217" />
+  <project path="developtools/profiler" name="developtools_profiler" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
+  <project path="third_party/protobuf" name="third_party_protobuf" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="third_party/giflib" name="third_party_giflib" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="third_party/libpng" name="third_party_libpng" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
@@ -63,8 +63,8 @@
   <project path="developtools/integration_verification" name="developtools_integration_verification" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="third_party/jinja2" name="third_party_jinja2" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="third_party/markupsafe" name="third_party_markupsafe" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
-  <project path="third_party/libphonenumber" name="third_party_libphonenumber" remote="openharmony" revision="weekly_20250217" />
-  <project path="third_party/abseil-cpp" name="third_party_abseil-cpp" remote="openharmony" revision="weekly_20250217" />
+  <project path="third_party/libphonenumber" name="third_party_libphonenumber" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
+  <project path="third_party/abseil-cpp" name="third_party_abseil-cpp" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="developtools/hapsigner" name="developtools_hapsigner" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
   <project path="base/global/system_resources" name="global_system_resources" remote="openharmony" revision="OpenHarmony-5.1.0-Release" />
