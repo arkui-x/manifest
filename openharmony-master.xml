@@ -6,6 +6,7 @@
   <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="master" />
   <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="b9815aa0ef403b07d3fdd3d86f1a572174f433b9" />
   <project path="foundation/graphic/graphic_surface" name="graphic_graphic_surface" remote="openharmony" revision="master" />
+  <project path="foundation/graphic/graphics_effect" name="graphic_graphics_effect" remote="openharmony" revision="master" />
   <project path="foundation/filemanagement/file_api" name="filemanagement_file_api" remote="openharmony" revision="master" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace_ets2bundle" remote="openharmony" revision="master" />
   <project path="third_party/bounds_checking_function" name="third_party_bounds_checking_function" remote="openharmony" revision="master" />
