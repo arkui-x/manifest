@@ -81,7 +81,9 @@
   <project path="foundation/multimedia/drm_framework" name="multimedia_drm_framework" remote="openharmony" revision="master" />
   <project path="foundation/multimedia/av_session" name="multimedia_av_session" remote="openharmony" revision="master" />
   <project path="foundation/resourceschedule/qos_manager" name="resourceschedule_qos_manager" remote="openharmony" revision="master" />
+  <project path="foundation/ability/idl_tool" name="ability_idl_tool" remote="openharmony" revision="master" />
   <project path="base/msdp/device_status" name="msdp_device_status" remote="openharmony" revision="master" />
+  <project path="base/time/time_service" name="time_time_service" remote="openharmony" revision="master" />
   <project path="build" name="build" remote="openharmony" revision="master">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
   </project>
