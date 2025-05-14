@@ -87,6 +87,7 @@
   <project path="foundation/ability/idl_tool" name="ability_idl_tool" remote="openharmony" revision="weekly_20250505" />
   <project path="base/msdp/device_status" name="msdp_device_status" remote="openharmony" revision="weekly_20250505" />
   <project path="base/time/time_service" name="time_time_service" remote="openharmony" revision="weekly_20250505" />
+  <project path="base/hiviewdfx/hitrace" name="hiviewdfx_hitrace" remote="openharmony" revision="weekly_20250505" />
   <project path="third_party/decimal.js" name="third_party_decimal.js" remote="openharmony" revision="weekly_20250505" />
   <project path="build" name="build" remote="openharmony" revision="weekly_20250505">
     <linkfile dest=".gn" src="core/gn/dotfile.gn" />
