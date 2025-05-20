@@ -44,7 +44,7 @@
   <project path="foundation/communication/bluetooth" name="communication_bluetooth" remote="openharmony" revision="weekly_20250512" />
   <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="weekly_20250512" />
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="weekly_20250512" />
-  <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20250512" />
+  <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="weekly_20250505" />
   <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="weekly_20250512" />
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="weekly_20250512" />
   <project path="base/web/webview" name="web_webview" remote="openharmony" revision="weekly_20250512" />
