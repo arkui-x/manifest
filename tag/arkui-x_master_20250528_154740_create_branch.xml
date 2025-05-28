@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openharmony" fetch="https://gitee.com/openharmony/" review="https://gitee.com/openharmony/"/>
+  <remote name="origin" fetch="." review="https://gitcode.com/arkui-x/"/>
+  
+  <default remote="origin" revision="master" sync-j="4"/>
+  
+  <project name="app_framework" path="foundation/appframework" revision="2f8f9541d5273eec66c632f6b83b14f08f851407" upstream="master" dest-branch="master"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="d048b2ebac6218cd6b8967ca77ef11441eaf046f" upstream="master" dest-branch="master"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="f5da36cba0af41f43ed88433f8d8ad52372a8ac3" upstream="master" dest-branch="master"/>
+  <project name="arkxtest" path="test/testfwk/arkxtest" revision="d025031ebabbb9d641a08224dae7c3a5b5f3b239" upstream="master" dest-branch="master"/>
+  <project name="build_plugins" revision="1075664debb4517c136d430508905479b56361dc" upstream="master" dest-branch="master">
+    <linkfile src="build_scripts/build.sh" dest="build.sh"/>
+  </project>
+  <project name="cli" path="developtools/ace_tools" revision="d2c913d8f9dcab8f0ddab770a08d8c2677b0b7bb" upstream="master" dest-branch="master"/>
+  <project name="community" revision="37a0668992e66469580d512c85ef674a23c83546" upstream="master" dest-branch="master"/>
+  <project name="docs" revision="1bfe5e56f8fb44bc0f1d43935383ee603b797c70" upstream="master" dest-branch="master"/>
+  <project name="interface_sdk" path="interface/sdk" revision="1141bac3a1e59de801ecdba6f1a5ab776e6f300f" upstream="master" dest-branch="master"/>
+  <project name="plugins" revision="7118970f5f2d9d737ca93e026bba63d3c301bfa2" upstream="master" dest-branch="master"/>
+  <project name="productdefine" path="productdefine/common" revision="91aed1134c096834d52e38383b4282433dec7e2c" upstream="master" dest-branch="master"/>
+  <project name="samples" revision="c47a7632dfd932b82ccf96bff56273c5a2a08a2c" upstream="master" dest-branch="master"/>
+  <project name="xts" path="test/xts" revision="08d2a779813363305d5ce987197b90aa8953ed9d" upstream="master" dest-branch="master"/>
+</manifest>
