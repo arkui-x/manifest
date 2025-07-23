@@ -1,6 +1,6 @@
 repoistory,bundle,linux_x86_arkui_android,mac_arm_arkui_android,mac_arm_arkui_ios,format_check,test
-arkui_for_android,@ohos/arkui_for_android,Y,Y,Y,Y,,
-arkui_for_ios,@ohos/arkui_for_ios,Y,Y,Y,Y,,
+arkui_for_android,@ohos/arkui_for_android,Y,Y,N,Y,,
+arkui_for_ios,@ohos/arkui_for_ios,N,N,Y,Y,,
 cli,@ohos/cli,N,N,N,Y,,
 community,@ohos/community,N,N,N,Y,,
 docs,@ohos/docs,N,N,N,Y,,
