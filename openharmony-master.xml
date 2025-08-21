@@ -55,9 +55,7 @@
   <project path="third_party/libexif" name="third_party_libexif" remote="openharmony" revision="master" />
   <project path="third_party/libpng" name="third_party_libpng" remote="openharmony" revision="master" />
   <project path="third_party/json" name="third_party_json" remote="openharmony" revision="master" />
-  <project path="third_party/glib" name="third_party_glib" remote="openharmony" revision="master" />
   <project path="third_party/gettext" name="third_party_gettext" remote="openharmony" revision="master" />
-  <project path="third_party/libffi" name="third_party_libffi" remote="openharmony" revision="master" />
   <project path="third_party/pcre2" name="third_party_pcre2" remote="openharmony" revision="master" />
   <project path="third_party/libxml2" name="third_party_libxml2" remote="openharmony" revision="master" />
   <project path="third_party/sqlite" name="third_party_sqlite" remote="openharmony" revision="master" />
