@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gitcode" fetch="https://gitcode.com/openharmony" review="https://gitcode.com/openharmony/"/>
+  <remote name="openharmony" fetch="https://gitee.com/openharmony/" review="https://gitee.com/openharmony/"/>
+  <remote name="origin" fetch="." review="https://gitcode.com/arkui-x/"/>
+  
+  <default remote="origin" revision="master" sync-j="4"/>
+  
+
+  <project name="app_framework" path="foundation/appframework" revision="7a13bef0b6c9ccb2e45dcc3ff706448fb7d61546" upstream="master" dest-branch="master"/>
+
+
+
+
+
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="d63ed70c716791954d40295e479483726c8fac8b" upstream="master" dest-branch="master"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="a12be4d54b9be32efb175e852ec57ae827d7541b" upstream="master" dest-branch="master"/>
+
+  <project name="arkxtest" path="test/testfwk/arkxtest" revision="d025031ebabbb9d641a08224dae7c3a5b5f3b239" upstream="master" dest-branch="master"/>
+
+  <project name="build_plugins" revision="59425ae8b6a62ae04645435ab97188e74388e787" upstream="master" dest-branch="master">
+    <linkfile src="build_scripts/build.sh" dest="build.sh"/>
+  </project>
+  <project name="cli" path="developtools/ace_tools" revision="6586d95545cf8577cf82dd2dc43fd45a08ff87da" upstream="master" dest-branch="master"/>
+
+
+
+
+
+
+
+  <project name="community" revision="37a0668992e66469580d512c85ef674a23c83546" upstream="master" dest-branch="master"/>
+
+
+
+
+
+
+
+
+
+
+
+  <project name="docs" revision="30fff5bbd03e42b02b3c3dd816785d5247ac74f6" upstream="master" dest-branch="master"/>
+
+
+
+
+
+
+
+
+  <project name="interface_sdk" path="interface/sdk" revision="0f174509212c5c23a0c0a44d646e1ef16ef432a7" upstream="master" dest-branch="master"/>
+
+
+
+
+
+
+
+
+
+
+
+  <project name="plugins" revision="9b54798e9488eb63224a0f974d19c7e4e2031628" upstream="master" dest-branch="master"/>
+  <project name="productdefine" path="productdefine/common" revision="71d15bddabf0707a2d0988d9c4f49a1907142d80" upstream="master" dest-branch="master"/>
+
+  <project name="samples" revision="cb52633efffc43f8b35ad9f67181a0667e6abbb7" upstream="master" dest-branch="master"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <project name="xts" path="test/xts" revision="e1c007b384b9565896b098999b3533abd42f0d4f" upstream="master" dest-branch="master"/>
+</manifest>
