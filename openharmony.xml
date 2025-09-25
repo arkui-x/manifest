@@ -14,7 +14,6 @@
   <project path="third_party/css-what" name="third_party_css-what" remote="openharmony" revision="weekly_20250915" />
   <project path="third_party/cJSON" name="third_party_cJSON" remote="openharmony" revision="weekly_20250915" />
   <project path="third_party/curl" name="third_party_curl" remote="openharmony" revision="weekly_20250915" />
-  <project path="third_party/flutter" name="third_party_flutter" remote="gitee" revision="weekly_20240101" />
   <project path="third_party/ffmpeg" name="third_party_ffmpeg" remote="openharmony" revision="weekly_20250915" />
   <project path="third_party/freetype" name="third_party_freetype" remote="openharmony" revision="weekly_20250915" />
   <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="weekly_20250915" />
