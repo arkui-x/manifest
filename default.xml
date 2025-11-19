@@ -20,7 +20,7 @@
   <project name="build" remote="openharmony" revision="6bdfbcb5c7d7b3819f7b229895334e5f2d5a6122" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release">
     <linkfile src="core/gn/dotfile.gn" dest=".gn"/>
   </project>
-  <project name="build_plugins" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release">
+  <project name="build_plugins" revision="4063ad362469c1ec37b73ac8951d13d4e1c47f74" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release">
     <linkfile src="build_scripts/build.sh" dest="build.sh"/>
   </project>
   <project name="cli" path="developtools/ace_tools" revision="929e1b44d96103ef46c96a067c59666e0868da70" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
