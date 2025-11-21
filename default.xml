@@ -13,14 +13,14 @@
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="591ea0de1f9d991de06d87b115188ef748391375" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="6e86e5ad04c2dc0910022c264ce895e94a8c3637" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="c6bfb8d4281ff92800fc0fb7d4aba0f76d816465" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
-  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="5f9f2ee768cf96a690fb29ff1684e045a394c365" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="c576af94697f275658ec9b50137c42f783eaf63a" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="2a7919609384144b623b99f82b3d0ac441d03b92" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="be773d1947f3642a60a354f3914ac6463b7961ba" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkxtest" path="test/testfwk/arkxtest" revision="d025031ebabbb9d641a08224dae7c3a5b5f3b239" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="build" remote="openharmony" revision="6bdfbcb5c7d7b3819f7b229895334e5f2d5a6122" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release">
     <linkfile src="core/gn/dotfile.gn" dest=".gn"/>
   </project>
-  <project name="build_plugins" revision="4063ad362469c1ec37b73ac8951d13d4e1c47f74" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release">
+  <project name="build_plugins" revision="8bf9265c463cb620c32c6854a9fd0bcaaead9c71" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release">
     <linkfile src="build_scripts/build.sh" dest="build.sh"/>
   </project>
   <project name="cli" path="developtools/ace_tools" revision="929e1b44d96103ef46c96a067c59666e0868da70" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
