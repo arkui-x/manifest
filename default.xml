@@ -23,7 +23,7 @@
   <project name="build_plugins" revision="ArkUI-X-6.0-Release" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release">
     <linkfile src="build_scripts/build.sh" dest="build.sh"/>
   </project>
-  <project name="cli" path="developtools/ace_tools" revision="929e1b44d96103ef46c96a067c59666e0868da70" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
+  <project name="cli" path="developtools/ace_tools" revision="ArkUI-X-6.0-Release" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" remote="openharmony" revision="13b92944937a40bb838b36b85b0e46d1570677e5" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" remote="openharmony" revision="afeca835045b24a8cffd5fa90143f13172e7655a" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" remote="openharmony" revision="124349464e29b2ddc22936f28723e4fc754dabbd" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
