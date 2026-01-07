@@ -13,7 +13,7 @@
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="591ea0de1f9d991de06d87b115188ef748391375" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="6e86e5ad04c2dc0910022c264ce895e94a8c3637" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="9331c3f91291e39675c1cea45dd60b364351bcbd" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
-  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="55c8240bb59fe7e43ca91166ed0307c58afc42d0" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="ArkUI-X-6.0-Release" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="d1c5aa12777744028eeb46ca435ab9d60c27f636" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="7ca0c23c5bb6916d0ebdd47cdc52422417e5a723" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkxtest" path="test/testfwk/arkxtest" revision="d025031ebabbb9d641a08224dae7c3a5b5f3b239" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
