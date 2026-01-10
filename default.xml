@@ -12,7 +12,7 @@
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="abd42efa22931ea1c096c871eac2370086a8f4d8" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="591ea0de1f9d991de06d87b115188ef748391375" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="6e86e5ad04c2dc0910022c264ce895e94a8c3637" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
-  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="OpenHarmony-6.0-Release" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
+  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="9331c3f91291e39675c1cea45dd60b364351bcbd" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="ArkUI-X-6.0-Release" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="d1c5aa12777744028eeb46ca435ab9d60c27f636" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="7ca0c23c5bb6916d0ebdd47cdc52422417e5a723" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
@@ -102,7 +102,7 @@
   <project name="third_party_pcre2" path="third_party/pcre2" remote="openharmony" revision="ec776142c3378bb5f3a5bf9e137131398e54b003" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="46fe07173486ae171a02f0480ebfb85a4ad07988" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="openharmony" revision="f866193771e8ad103a99d0260797dd79cee31cf0" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
-  <project name="third_party_skia" path="third_party/skia" remote="openharmony" revision="OpenHarmony-6.0-Release" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
+  <project name="third_party_skia" path="third_party/skia" remote="openharmony" revision="e752a02721b2766615ff20241d0f28ddc96264ab" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="third_party_sqlite" path="third_party/sqlite" remote="openharmony" revision="038cd7b069d56fc95465eadea888f407fd7f71da" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="third_party_typescript" path="third_party/typescript" remote="openharmony" revision="ee0808cf3bb14c3e030fac293c567b547fa1229b" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="third_party_weex-loader" path="third_party/weex-loader" remote="openharmony" revision="aea6bae90d6b9d0bc15959f556b5045aed2ba635" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
