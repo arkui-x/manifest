@@ -37,6 +37,7 @@
   <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="weekly_20260105" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="weekly_20260105" />
   <project path="third_party/skia" name="third_party_skia" remote="openharmony" revision="weekly_20260105" />
+  <project path="foundation/distributeddatamgr/pasteboard" name="distributeddatamgr_pasteboard" remote="openharmony" revision="weekly_20260105" />
   <project path="foundation/distributeddatamgr/preferences" name="distributeddatamgr_preferences" remote="openharmony" revision="weekly_20260105" />
   <project path="foundation/distributeddatamgr/relational_store" name="distributeddatamgr_relational_store" remote="openharmony" revision="weekly_20260105" />
   <project path="foundation/distributeddatamgr/kv_store" name="distributeddatamgr_kv_store" remote="openharmony" revision="weekly_20260105" />
