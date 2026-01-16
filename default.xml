@@ -7,12 +7,12 @@
   <default remote="origin" revision="ArkUI-X-6.0-Release" sync-j="4"/>
   
   <project name="ability_idl_tool" path="foundation/ability/idl_tool" remote="openharmony" revision="498dddd27e6e9b6f5cf4bca3137e3264671b40f1" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
-  <project name="app_framework" path="foundation/appframework" revision="83f9729b8f94480c5d23b8c45ca76a1610235b4f" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
+  <project name="app_framework" path="foundation/appframework" revision="ArkUI-X-6.0-Release" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="c98b90f238ee568ca70aa75879827492027a81e8" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="abd42efa22931ea1c096c871eac2370086a8f4d8" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="591ea0de1f9d991de06d87b115188ef748391375" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="6e86e5ad04c2dc0910022c264ce895e94a8c3637" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
-  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="9331c3f91291e39675c1cea45dd60b364351bcbd" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
+  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="OpenHarmony-6.0-Release" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="ArkUI-X-6.0-Release" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="d1c5aa12777744028eeb46ca435ab9d60c27f636" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="7ca0c23c5bb6916d0ebdd47cdc52422417e5a723" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
@@ -47,7 +47,7 @@
   <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="openharmony" revision="72c7f4626c31a782d2fd64969e920328b94d8092" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="global_resource_management" path="base/global/resource_management" remote="openharmony" revision="a07c5248e6c7474b9d95142a1ee5f07d4134d400" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="global_system_resources" path="base/global/system_resources" remote="openharmony" revision="aabba5e738f8c64e3aaf6af37a01abf6a52c8cd5" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
-  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="openharmony" revision="42db57331ef0d680c4de7b0a4866eae9ccd8dc27" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
+  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="openharmony" revision="33ce6c551c337fe95548cbf139bba64c8cd19f75" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" remote="openharmony" revision="173b05e1bd01657f1743e97bf24427a3855e7e15" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="graphic_graphics_effect" path="foundation/graphic/graphics_effect" remote="openharmony" revision="14d438136139d8a953f5112e4925e75b1e01874c" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="openharmony" revision="e2dda4323509b1696a45475382d95d299ae95687" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
