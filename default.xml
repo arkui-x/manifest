@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="." name="origin" review="https://gitcode.com/arkui-x/" />
-  <default remote="origin" revision="weekly_20260112" sync-j="4" />
+  <default remote="origin" revision="weekly_20260119" sync-j="4" />
 
   <include name="openharmony.xml" />
   <project path="community" name="community" />
