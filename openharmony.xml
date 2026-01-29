@@ -77,7 +77,7 @@
   <project path="foundation/multimedia/player_framework" name="multimedia_player_framework" remote="openharmony" revision="weekly_20260119" />
   <project path="foundation/multimedia/av_codec" name="multimedia_av_codec" remote="openharmony" revision="weekly_20260119" />
   <project path="foundation/multimedia/media_foundation" name="multimedia_media_foundation" remote="openharmony" revision="weekly_20260119" />
-  <project path="foundation/multimedia/audio_framework" name="multimedia_audio_framework" remote="openharmony" revision="weekly_20260112" />
+  <project path="foundation/multimedia/audio_framework" name="multimedia_audio_framework" remote="openharmony" revision="weekly_20260119" />
   <project path="foundation/multimedia/drm_framework" name="multimedia_drm_framework" remote="openharmony" revision="weekly_20260119" />
   <project path="foundation/multimedia/av_session" name="multimedia_av_session" remote="openharmony" revision="weekly_20260119" />
   <project path="foundation/resourceschedule/qos_manager" name="resourceschedule_qos_manager" remote="openharmony" revision="weekly_20260119" />
