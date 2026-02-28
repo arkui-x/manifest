@@ -10,7 +10,7 @@
   <project path="test/testfwk/arkxtest" name="arkxtest" />
   <project path="docs" name="docs" />
   <project path="developtools/ace_tools" name="cli" />
-  <project path="foundation/appframework" name="app_framework" revision="014cee38c7a1ed7ff1688e70ec3f8157214f1fd8" />
+  <project name="app_framework" path="foundation/appframework" revision="014cee38c7a1ed7ff1688e70ec3f8157214f1fd8" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project path="foundation/arkui/ace_engine/adapter/android" name="arkui_for_android" />
   <project path="foundation/arkui/ace_engine/adapter/ios" name="arkui_for_ios" />
   <project path="plugins" name="plugins" />

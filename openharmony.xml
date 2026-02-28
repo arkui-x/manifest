@@ -5,7 +5,7 @@
 
   <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="OpenHarmony-6.0-Release" />
-  <project path="foundation/graphic/graphic_2d" name="graphic_graphic_2d" remote="openharmony" revision="658f4a0aca146ed5d3e16208bc170c39266a8746" />
+  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="openharmony" revision="658f4a0aca146ed5d3e16208bc170c39266a8746" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="foundation/graphic/graphic_surface" name="graphic_graphic_surface" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/graphic/graphics_effect" name="graphic_graphics_effect" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/filemanagement/file_api" name="filemanagement_file_api" remote="openharmony" revision="OpenHarmony-6.0-Release" />
@@ -34,7 +34,7 @@
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="commonlibrary/utils_lite" name="commonlibrary_utils_lite" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="OpenHarmony-6.0-Release" />
-  <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="4a28c7b3ab978a6b43ab74e2edf93dad1e7cf7f4" />
+  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="4a28c7b3ab978a6b43ab74e2edf93dad1e7cf7f4" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="arkcompiler/runtime_core" name="arkcompiler_runtime_core" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="arkcompiler/toolchain" name="arkcompiler_toolchain" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="third_party/jsoncpp" name="third_party_jsoncpp" remote="openharmony" revision="OpenHarmony-4.0-Beta2" />
@@ -69,7 +69,7 @@
   <project path="third_party/libwebsockets" name="third_party_libwebsockets" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="developtools/hapsigner" name="developtools_hapsigner" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="base/global/system_resources" name="global_system_resources" remote="openharmony" revision="OpenHarmony-6.0-Release" />
-  <project path="interface/sdk-js" name="interface_sdk-js" remote="openharmony" revision="7c28493d7a4032acbcc92b8f848d27a8ee0b8aff" />
+  <project name="interface_sdk-js" path="interface/sdk-js" remote="openharmony" revision="7c28493d7a4032acbcc92b8f848d27a8ee0b8aff" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="developtools/packing_tool" name="developtools_packing_tool" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="developtools/global_resource_tool" name="developtools_global_resource_tool" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="developtools/ace_js2bundle" name="developtools_ace_js2bundle" remote="openharmony" revision="OpenHarmony-6.0-Release" />
