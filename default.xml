@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openharmony" fetch="https://gitee.com/openharmony/" review="https://gitee.com/openharmony/"/>
+  <remote name="openharmony" fetch="https://gitcode.com/openharmony" review="https://gitcode.com/openharmony"/>
   <remote name="origin" fetch="." review="https://gitcode.com/arkui-x/"/>
   
   <default remote="origin" revision="ArkUI-X-5.1.0-Release" sync-j="4"/>
