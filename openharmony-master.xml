@@ -16,6 +16,7 @@
   <project path="third_party/expat" name="third_party_expat" remote="openharmony" revision="master" />
   <project path="third_party/freetype" name="third_party_freetype" remote="openharmony" revision="master" />
   <project path="third_party/googletest" name="third_party_googletest" remote="openharmony" revision="master" />
+  <project path="third_party/harfbuzz" name="third_party_harfbuzz" remote="openharmony" revision="master" />
   <project path="third_party/icu" name="third_party_icu" remote="openharmony" revision="master" />
   <project path="third_party/libuv" name="third_party_libuv" remote="openharmony" revision="master" />
   <project path="third_party/nghttp2" name="third_party_nghttp2" remote="openharmony" revision="master" />
