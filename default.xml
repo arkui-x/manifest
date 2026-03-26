@@ -11,7 +11,7 @@
   <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="dec3587106cb67c9a08f44497790a143f5394850" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="9da6c2753d300f04a1e6cb077118d009cb2123b8" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="OpenHarmony-5.1.0-Release" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
-  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="ac32f518e8a1cb3c1b19d0271cf049a0cdc55d49" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="ArkUI-X-5.1.0-Release" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
   <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="ArkUI-X-5.1.0-Release" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
   <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="4ba21d848d88172ea36a92ddc5717e242b219822" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="arkxtest" path="test/testfwk/arkxtest" revision="d025031ebabbb9d641a08224dae7c3a5b5f3b239" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
@@ -48,7 +48,7 @@
   <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="openharmony" revision="1a8db43a797943ecfe4484cd25762fc1e53ca0d1" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" remote="openharmony" revision="c8420d9f7d6b800ed98a70057abfce81cf5dcc21" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="openharmony" revision="d779987c4d10cff0a756afe5a698d09e095cad03" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
-  <project name="interface_sdk" path="interface/sdk" revision="262c697b39adbf8052e36b6e9f0a407652a2c5a9" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
+  <project name="interface_sdk" path="interface/sdk" revision="ArkUI-X-5.1.0-Release" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
   <project name="interface_sdk-js" path="interface/sdk-js" remote="openharmony" revision="6a0068f9422da1aff8a64b8bee3165330d6d237c" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="msdp_device_status" path="base/msdp/device_status" remote="openharmony" revision="36abd89c57d733a90cd05ebad80f15626bd32439" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" remote="openharmony" revision="c42a228d60b64a90d6b05cf26278a89253e5310b" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
@@ -60,7 +60,7 @@
   <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" remote="openharmony" revision="19ef1f3982644e2a563745cbf690f3eebdd3d8e1" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="multimodalinput_input" path="foundation/multimodalinput/input" remote="openharmony" revision="51c2f8b183400e7cc51cde1899e0848e65f62371" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="notification_eventhandler" path="base/notification/eventhandler" remote="openharmony" revision="8be9da018a3ca71b6ccddcbad22009e15a0599bb" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
-  <project name="plugins" revision="74eece3025f9c1a7839d4779a5f039c70a3093bd" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
+  <project name="plugins" revision="ArkUI-X-5.1.0-Release" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
   <project name="productdefine" path="productdefine/common" revision="d642284216df95ac85b9a27cf2a96e2be5f197f3" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
   <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" remote="openharmony" revision="3fb3694c92785d773c14d5e0e19622da8bd4f850" upstream="OpenHarmony-5.1.0-Release" dest-branch="OpenHarmony-5.1.0-Release"/>
   <project name="samples" revision="a938fa96ea879124b90e92e09df6c60fe031b959" upstream="ArkUI-X-5.1.0-Release" dest-branch="ArkUI-X-5.1.0-Release"/>
