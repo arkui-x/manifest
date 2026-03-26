@@ -8,7 +8,9 @@
   <project path="samples" name="samples" />
   <project path="test/xts" name="xts" />
   <project path="test/testfwk/arkxtest" name="arkxtest" />
-  <project path="docs" name="docs" />
+  <project path="docs" name="docs">
+    <linkfile dest="AGENTS.md" src="AGENTS.md"/>
+  </project>
   <project path="developtools/ace_tools" name="cli" />
   <project path="foundation/appframework" name="app_framework" />
   <project path="foundation/arkui/ace_engine/adapter/android" name="arkui_for_android" />
