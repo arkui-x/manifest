@@ -19,5 +19,5 @@
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>
   </project>
   <project path="productdefine/common" name="productdefine" />
-  <project path="third_party/MoltenVK" name="third_party_MoltenVK" revision="master" />
+  <project path="third_party/MoltenVK" name="third_party_MoltenVK" revision="ArkUI-X-7.0-Beta1" />
 </manifest>

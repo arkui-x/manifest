@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openharmony" fetch="https://gitcode.com/openharmony" review="https://gitcode.com/openharmony/"/>
+  <remote name="origin" fetch="." review="https://gitcode.com/arkui-x/"/>
+  
+  <default remote="origin" revision="master" sync-j="4"/>
+  
+  <project name="ability_idl_tool" path="foundation/ability/idl_tool" remote="openharmony" revision="a0f3aa811f127a355183b4277f4e3bb71bab4ac2" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="app_framework" path="foundation/appframework" revision="0bfe66f8ef768855e0026431b34b76c8d5e390c6" upstream="master" dest-branch="master"/>
+  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="dd60b08c291b895870d9902e58a49e1d5690a230" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="c4253ec2514585851ada2d37a1570d93d2fed8ac" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="a89bb687f59f0c6f14427b833d255a03046d5ae1" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="d283492e7e2aa908f28c0e499b5712b9e9310cfa" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="5e2d0012895db6dda756cd00ea8e2b6a7a0cfed1" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="a2e4e87a2ef41e7ff5d46c0e3db0be8f5850fb58" upstream="master" dest-branch="master"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="ed00ecd5b30985a6a86cb13358817463c2d8f8f5" upstream="master" dest-branch="master"/>
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="a64e265b6c8916a81bbb12f9b00aaad1a0b2ce49" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="arkxtest" path="test/testfwk/arkxtest" revision="2cd6118daa05190ef814ddb27159fb6129e5e9ee" upstream="master" dest-branch="master"/>
+  <project name="build" remote="openharmony" revision="13891d9428a40e4424e197c18a068b34a5cc1b3c" upstream="weekly_20260511" dest-branch="weekly_20260511">
+    <linkfile src="core/gn/dotfile.gn" dest=".gn"/>
+  </project>
+  <project name="build_plugins" revision="829b37cbc9c63ac7e9f98cb54293c975d7e85f50" upstream="master" dest-branch="master">
+    <linkfile src="build_scripts/build.sh" dest="build.sh"/>
+  </project>
+  <project name="cli" path="developtools/ace_tools" revision="5d6d402f93b69fb57bea1aae6e633e465848b4a0" upstream="master" dest-branch="master"/>
+  <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" remote="openharmony" revision="c38f0dd7d806ddf84b7ce85356f5631e0575e448" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" remote="openharmony" revision="fb9cdc85590f1468092904bbf810e0d87a9a01ba" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" remote="openharmony" revision="30a38b71f54e0f2e384934b8f676fdb653cc5036" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="openharmony" revision="d3f4ae6fcf1c3c22e97a4695c3f58f77a65a7a7f" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth" remote="openharmony" revision="6cb6aaab689db841ccdfb900bedcc64dc437cd25" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="openharmony" revision="133243c0411d01135386392633dce1a0592b6f62" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="communication_netstack" path="foundation/communication/netstack" remote="openharmony" revision="9cc446b2c116ce0a542b98400d81ec51114eb234" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="community" revision="37a0668992e66469580d512c85ef674a23c83546" upstream="master" dest-branch="master"/>
+  <project name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" remote="openharmony" revision="5ab103fc44a86744d23178a3c7b4d44d6a239fe1" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="openharmony" revision="99c0bf0c0d28833f64db32f4596c1afa0178397b" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="developtools_global_resource_tool" path="developtools/global_resource_tool" remote="openharmony" revision="a9530b8be1207a42a37a5f0bdd27bc3403623e00" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="developtools_hapsigner" path="developtools/hapsigner" remote="openharmony" revision="2589a4b4ab2cc0ddfce2389b449d1073d9441d48" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="developtools_integration_verification" path="developtools/integration_verification" remote="openharmony" revision="3676e6b4507184f5926a78116c0ff5cd8f690695" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="developtools_packing_tool" path="developtools/packing_tool" remote="openharmony" revision="aa1a4157a01fc9be7cf7e102395a4b96d4b01589" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="fb809c8965f45cf2a9976037956f84fabafbf3cf" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" remote="openharmony" revision="8622c2a785d56aeb18cbef54b98e9b737a1b8ec8" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" remote="openharmony" revision="f1dd9338a3ad0b48cf5958ba7d56e6f5819988cf" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" remote="openharmony" revision="49cde79b4246c4e4f0576523e4e0308968f28b77" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" remote="openharmony" revision="099eca946d722ad464d27654fd51a3bdeab70c57" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" remote="openharmony" revision="e6c4a14b1a2a0c80af11919b033bc07147100869" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="docs" revision="0a6edcec7a37be7f6b64c4993fa94a061cc81d4c" upstream="master" dest-branch="master">
+    <linkfile src="AGENTS.md" dest="AGENTS.md"/>
+  </project>
+  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="openharmony" revision="c3acb2573257323ce7a3a1545100a421d2de55f6" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="global_resource_management" path="base/global/resource_management" remote="openharmony" revision="7e6752fc679456c29ed7e4392a205e043429b197" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="global_system_resources" path="base/global/system_resources" remote="openharmony" revision="9f6ca9071b32176d15051d6ff2f75d5e35719b54" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="openharmony" revision="2fc5f7b655c741308952c312a19a4a8d187f3e5c" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" remote="openharmony" revision="96fc34c6d02ba09b1abb7a8e28bad5be48dfa30f" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="graphic_graphics_effect" path="foundation/graphic/graphics_effect" remote="openharmony" revision="c71aec97c3b7be6706a32b7b9ac63e9e6379c25c" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="openharmony" revision="2874f068e89569a82dee28e886d5b8fb87ae4e06" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="openharmony" revision="b00ea02bd7d2fb73d8ad5d15e6a3e9f52baf5d64" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="interface_sdk" path="interface/sdk" revision="f3edcb2a91259e6eca744b82d476f9a0e9ac3fa9" upstream="master" dest-branch="master"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" remote="openharmony" revision="30ecd8013fddedf42c02e89633d8ccfaaf439a4a" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="msdp_device_status" path="base/msdp/device_status" remote="openharmony" revision="77d53ae635de4e68db94500a0c1416527bc92a14" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" remote="openharmony" revision="92b3653954e78d61b2a4a55adb622f553049ace8" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="multimedia_av_codec" path="foundation/multimedia/av_codec" remote="openharmony" revision="43aa966e0a1a9c25559a896da8dbe0625fbcaac4" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="multimedia_av_session" path="foundation/multimedia/av_session" remote="openharmony" revision="df04e979e55928d58fabf516e8b755220b7bc7ce" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="multimedia_drm_framework" path="foundation/multimedia/drm_framework" remote="openharmony" revision="541c01ead21a2aeaad48aeec45599366dd511a31" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="multimedia_image_framework" path="foundation/multimedia/image_framework" remote="openharmony" revision="d6a685e3e6f8b867089f07caf6bc67a4b1390ae6" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="multimedia_media_foundation" path="foundation/multimedia/media_foundation" remote="openharmony" revision="d7ff92af979f15766929a6fb9f186fb61f1195c4" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" remote="openharmony" revision="5d53be57f092e97c493bf778418703b2a193addd" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="multimodalinput_input" path="foundation/multimodalinput/input" remote="openharmony" revision="61630d490ce25ddd2236d6bcaee91abc4c708554" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="notification_eventhandler" path="base/notification/eventhandler" remote="openharmony" revision="9eed51bbbcdd4dfa83b6b011720a0e45c118bc57" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="plugins" revision="fd2da85a82d1b50a6495c0a5b0227b62c08ea737" upstream="master" dest-branch="master"/>
+  <project name="productdefine" path="productdefine/common" revision="0a605470e7afa34bf8559570e4fcf56b962f9dfa" upstream="master" dest-branch="master"/>
+  <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" remote="openharmony" revision="650a008ae1242fa0f11543482245a2965013e08e" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="samples" revision="693cc524ee0ce88f9cdc287d7529b9dc2c3ae24f" upstream="master" dest-branch="master"/>
+  <project name="security_certificate_framework" path="base/security/certificate_framework" remote="openharmony" revision="2a8d3b93c8272679eff0b6917ea0660068729884" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="security_crypto_framework" path="base/security/crypto_framework" remote="openharmony" revision="fc1667efcd8005b3bd2f32fbcdb6d5fd6a056391" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_MoltenVK" path="third_party/MoltenVK" revision="0e9db45b4d13d927dbc29e40985e69410894e493" upstream="master" dest-branch="master"/>
+  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="openharmony" revision="853d60fd68b012ebabd1f5858d9f754835252a0c" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="2ae82839ecaaa7d031e66ccbd2076d671acfd615" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="openharmony" revision="388cfc96925e4fb41a30735b270736626d26615d" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_css-what" path="third_party/css-what" remote="openharmony" revision="66c986b3597910d384f32d7b098112d2b48d4145" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_curl" path="third_party/curl" remote="openharmony" revision="d3db718a5a0fb8e7c069cf169d175a41e057bcce" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_decimal.js" path="third_party/decimal.js" remote="openharmony" revision="83721816efc3cb1eb5ec320d1362b22fe5728c4c" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_egl" path="third_party/EGL" remote="openharmony" revision="fbbc555f608476f0934bcb77134f8f29704c855f" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_ffmpeg" path="third_party/ffmpeg" remote="openharmony" revision="56f8a518839c76f5bb7f22cc7427cf8e027ab32e" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_freetype" path="third_party/freetype" remote="openharmony" revision="39a6a0f5a9594132d4b3cc7c2c1c4e9f050d60b8" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_googletest" path="third_party/googletest" remote="openharmony" revision="fa1a0205af7bf35a70952c7f04c56363eb515d3a" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_harfbuzz" path="third_party/harfbuzz" remote="openharmony" revision="5b8f1d6de169ce2a125861d85248cdc841cca668" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="ab518c4a47af6d4ebd5c351644ce66304c7eac0e" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" remote="openharmony" revision="1611aa4447699769435f913a3c3753d259c76fdb" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_jsframework" path="third_party/jsframework" remote="openharmony" revision="392f618c32e9565ccb5a865582184449b025a7d6" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_json" path="third_party/json" remote="openharmony" revision="50e7fd8209252f3dda7a555410ae7de815110792" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="openharmony" revision="24cc8282a123a537e02ef31886974bf8f5a960b1" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_libexif" path="third_party/libexif" remote="openharmony" revision="5fff134ce1d0d6c5d7d993182d7dc5a1661512bc" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_libphonenumber" path="third_party/libphonenumber" remote="openharmony" revision="26d156cff5ef2adbf5d817a21329eb6e1553aa09" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_libpng" path="third_party/libpng" remote="openharmony" revision="2a3d993b105d40aa0642abca3d8379f6529598b4" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="55e849f8e64059db0fdea915e398a0ba29b9573e" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_libwebsockets" path="third_party/libwebsockets" remote="openharmony" revision="026237836f3cb1738d842e140ca30b8b9f351665" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_libxml2" path="third_party/libxml2" remote="openharmony" revision="f34cf2ec631f2299b0dc6f0b8dc27a80820a75b3" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="openharmony" revision="c44ef7f93941faa504d3adb230c74e7d195a0f35" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_nghttp2" path="third_party/nghttp2" remote="openharmony" revision="34755c12897a6fd392efc32644b5751ddcf6b0ce" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_node" path="third_party/node" remote="openharmony" revision="d6bfaf5c015d29fee58e3c94f01d463fb87a9497" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_opengles" path="third_party/openGLES" remote="openharmony" revision="208a6aa1419fbe7fc3c20d38494220347e069a94" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="ba292a99ec55c5bdb6196b91da05b8db7fa65d54" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_parse5" path="third_party/parse5" remote="openharmony" revision="1333a773e1040729e4e4199f9113f22ac60fc31c" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_pcre2" path="third_party/pcre2" remote="openharmony" revision="c71a58667e17dbd058fbce53b203d5ec6600ade5" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="30f7ebaabb29c8c4a36969d8ce43dbd3ee01b7b0" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="openharmony" revision="d05d7cd47d3aee52fa3f81a5032d53af2e179a42" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_skia" path="third_party/skia" remote="openharmony" revision="75b6e05081aabd484d68536792a82f1664d880c5" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_sqlite" path="third_party/sqlite" remote="openharmony" revision="90128b5d439011956b16fd7ef6e45a8bf02e278f" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_typescript" path="third_party/typescript" remote="openharmony" revision="c1ccd31fe2c1a7e0dec01a403ae39eb4b351fdf0" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_weex-loader" path="third_party/weex-loader" remote="openharmony" revision="03b5588bfb960ccd1e2f60967de7482bb9e1dad1" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="511031649072e0ab25558c5b837243fff35f4fc3" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="time_time_service" path="base/time/time_service" remote="openharmony" revision="0b6448c220102af24c45c099aa855464a0ccedb2" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="web_webview" path="base/web/webview" remote="openharmony" revision="294c6f462c3121717a5ae84a250da22d601b7688" upstream="weekly_20260511" dest-branch="weekly_20260511"/>
+  <project name="xts" path="test/xts" revision="f85637c88a058464bb5aa573c5cc5b6a58b659cc" upstream="master" dest-branch="master"/>
+</manifest>

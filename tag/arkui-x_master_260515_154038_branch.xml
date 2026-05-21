@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openharmony" fetch="https://gitcode.com/openharmony" review="https://gitcode.com/openharmony/"/>
+  <remote name="origin" fetch="." review="https://gitcode.com/arkui-x/"/>
+  
+  <default remote="origin" revision="master" sync-j="4"/>
+  <project name="app_framework" path="foundation/appframework" revision="0bfe66f8ef768855e0026431b34b76c8d5e390c6" upstream="master" dest-branch="master"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="a2e4e87a2ef41e7ff5d46c0e3db0be8f5850fb58" upstream="master" dest-branch="master"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="ed00ecd5b30985a6a86cb13358817463c2d8f8f5" upstream="master" dest-branch="master"/>
+  <project name="arkxtest" path="test/testfwk/arkxtest" revision="2cd6118daa05190ef814ddb27159fb6129e5e9ee" upstream="master" dest-branch="master"/>
+  <project name="build_plugins" revision="829b37cbc9c63ac7e9f98cb54293c975d7e85f50" upstream="master" dest-branch="master">
+    <linkfile src="build_scripts/build.sh" dest="build.sh"/>
+  </project>
+  <project name="cli" path="developtools/ace_tools" revision="5d6d402f93b69fb57bea1aae6e633e465848b4a0" upstream="master" dest-branch="master"/>
+  <project name="community" revision="37a0668992e66469580d512c85ef674a23c83546" upstream="master" dest-branch="master"/>
+  <project name="docs" revision="0a6edcec7a37be7f6b64c4993fa94a061cc81d4c" upstream="master" dest-branch="master">
+    <linkfile src="AGENTS.md" dest="AGENTS.md"/>
+  </project>
+  <project name="interface_sdk" path="interface/sdk" revision="f3edcb2a91259e6eca744b82d476f9a0e9ac3fa9" upstream="master" dest-branch="master"/>
+  <project name="plugins" revision="fd2da85a82d1b50a6495c0a5b0227b62c08ea737" upstream="master" dest-branch="master"/>
+  <project name="productdefine" path="productdefine/common" revision="0a605470e7afa34bf8559570e4fcf56b962f9dfa" upstream="master" dest-branch="master"/>
+  <project name="samples" revision="693cc524ee0ce88f9cdc287d7529b9dc2c3ae24f" upstream="master" dest-branch="master"/>
+  <project name="third_party_MoltenVK" path="third_party/MoltenVK" revision="0e9db45b4d13d927dbc29e40985e69410894e493" upstream="master" dest-branch="master"/>
+  <project name="xts" path="test/xts" revision="f85637c88a058464bb5aa573c5cc5b6a58b659cc" upstream="master" dest-branch="master"/>
+</manifest>
