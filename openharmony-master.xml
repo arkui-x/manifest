@@ -24,6 +24,7 @@
   <project path="third_party/openssl" name="third_party_openssl" remote="openharmony" revision="master" />
   <project path="third_party/qrcodegen" name="third_party_qrcodegen" remote="openharmony" revision="master" />
   <project path="third_party/typescript" name="third_party_typescript" remote="openharmony" revision="master" />
+  <project path="third_party/vma" name="third_party_vma" remote="openharmony" revision="master" />
   <project path="third_party/weex-loader" name="third_party_weex-loader" remote="openharmony" revision="master" />
   <project path="third_party/zlib" name="third_party_zlib" remote="openharmony" revision="master" />
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="weekly_20230606" />
