@@ -8,6 +8,7 @@
   <project path="foundation/graphic/graphic_surface" name="graphic_graphic_surface" remote="openharmony" revision="weekly_20260615" />
   <project path="foundation/graphic/graphics_effect" name="graphic_graphics_effect" remote="openharmony" revision="weekly_20260615" />
   <project path="foundation/filemanagement/file_api" name="filemanagement_file_api" remote="openharmony" revision="weekly_20260615" />
+  <project path="foundation/filemanagement/app_file_service" name="filemanagement_app_file_service" remote="openharmony" revision="weekly_20260615" />
   <project path="developtools/ace_ets2bundle" name="developtools_ace_ets2bundle" remote="openharmony" revision="weekly_20260615" />
   <project path="third_party/bounds_checking_function" name="third_party_bounds_checking_function" remote="openharmony" revision="weekly_20260615" />
   <project path="third_party/css-what" name="third_party_css-what" remote="openharmony" revision="weekly_20260615" />
