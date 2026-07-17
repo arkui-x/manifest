@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openharmony" fetch="https://gitcode.com/openharmony" review="https://gitcode.com/openharmony/"/>
+  <remote name="origin" fetch="." review="https://gitcode.com/arkui-x/"/>
+  
+  <default remote="origin" revision="weekly_20260713" sync-j="4"/>
+  
+  <project name="app_framework" path="foundation/appframework" revision="a2a7291b27ceaba752c5cfc8dbcc475b772f4a42" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="d80c5b497b17206d61fe1b9706fb6c3b12e9261c" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="1e2d01b46b71216aba7e6a78c7762392f1ae2684" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="arkxtest" path="test/testfwk/arkxtest" revision="bebabe686a349c857a3f6df5c794d1e182ff0ac8" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="build_plugins" revision="ff9324f5dd28dd59e858d09c840321942309fdab" upstream="weekly_20260713" dest-branch="weekly_20260713">
+    <linkfile src="build_scripts/build.sh" dest="build.sh"/>
+  </project>
+  <project name="cli" path="developtools/ace_tools" revision="39e7b5cafffc6bfae3cfe43df2b24689f9cc2962" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="community" revision="37a0668992e66469580d512c85ef674a23c83546" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="docs" revision="3b9fe948d239d2e897dbf8c769aa53b3fdc695d9" upstream="weekly_20260713" dest-branch="weekly_20260713">
+    <linkfile src="AGENTS.md" dest="AGENTS.md"/>
+  </project>
+  <project name="interface_sdk" path="interface/sdk" revision="ba44afb1ce302c9ea1e08b90ed9693afd10b289b" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="plugins" revision="f878b7e81838e1ce63512f4e8f6e0d12a6bfcc70" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="productdefine" path="productdefine/common" revision="0a605470e7afa34bf8559570e4fcf56b962f9dfa" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" remote="openharmony" revision="650a008ae1242fa0f11543482245a2965013e08e" upstream="weekly_20260706" dest-branch="weekly_20260706"/>
+  <project name="samples" revision="f6a7c273e79f038e00a3a56745ca94fa41cb0e0e" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="third_party_MoltenVK" path="third_party/MoltenVK" revision="481804a07690c0b9a72814101bd7fe45dd2605a8" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+  <project name="xts" path="test/xts" revision="5672b3ac9785ff91993f2d8b1fcc8642c1e0bfc8" upstream="weekly_20260713" dest-branch="weekly_20260713"/>
+</manifest>
