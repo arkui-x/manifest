@@ -35,6 +35,7 @@
   <project path="commonlibrary/c_utils" name="commonlibrary_c_utils" remote="openharmony" revision="OpenHarmony-7.0-Release" />
   <project path="commonlibrary/ets_utils" name="commonlibrary_ets_utils" remote="openharmony" revision="OpenHarmony-7.0-Release" />
   <project path="commonlibrary/memory_utils" name="commonlibrary_memory_utils" remote="openharmony" revision="OpenHarmony-7.0-Release" />
+  <project path="commonlibrary/qrcode_generator" name="commonlibrary_qrcode_generator" remote="openharmony" revision="OpenHarmony-7.0-Release" />
   <project path="commonlibrary/utils_lite" name="commonlibrary_utils_lite" remote="openharmony" revision="OpenHarmony-7.0-Release" />
   <project path="arkcompiler/ets_frontend" name="arkcompiler_ets_frontend" remote="openharmony" revision="OpenHarmony-7.0-Release" />
   <project path="arkcompiler/ets_runtime" name="arkcompiler_ets_runtime" remote="openharmony" revision="OpenHarmony-7.0-Release" />
