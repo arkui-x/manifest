@@ -1,22 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="." name="origin" review="https://gitcode.com/arkui-x/" />
-  <default remote="origin" revision="ArkUI-X-6.1-Release" sync-j="4" />
-
-  <include name="openharmony.xml" />
-  <project path="community" name="community" />
-  <project path="samples" name="samples" />
-  <project path="test/xts" name="xts" />
-  <project path="test/testfwk/arkxtest" name="arkxtest" />
-  <project path="docs" name="docs" />
-  <project path="developtools/ace_tools" name="cli" />
-  <project path="foundation/appframework" name="app_framework" />
-  <project path="foundation/arkui/ace_engine/adapter/android" name="arkui_for_android" />
-  <project path="foundation/arkui/ace_engine/adapter/ios" name="arkui_for_ios" />
-  <project path="plugins" name="plugins" />
-  <project path="interface/sdk" name="interface_sdk" />
-  <project path="build_plugins" name="build_plugins">
-    <linkfile dest="build.sh" src="build_scripts/build.sh"/>
+  <remote name="openharmony" fetch="https://gitcode.com/openharmony" review="https://gitcode.com/openharmony/"/>
+  <remote name="origin" fetch="." review="https://gitcode.com/arkui-x/"/>
+  
+  <default remote="origin" revision="ArkUI-X-6.1-Release" sync-j="4"/>
+  
+  <project name="ability_idl_tool" path="foundation/ability/idl_tool" remote="openharmony" revision="afbaf94ee3a8d3b1bc5d4995bda335257670e3d2" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="app_framework" path="foundation/appframework" revision="752f4b7feab84ff1314cf402a6a98b9c53f4d631" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="arkcompiler_ets_frontend" path="arkcompiler/ets_frontend" remote="openharmony" revision="137d54834061378895387be405066060a4f94db5" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="arkcompiler_ets_runtime" path="arkcompiler/ets_runtime" remote="openharmony" revision="1bc94ec9eb1de37145ef21f761afe75a2a9093ee" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="arkcompiler_runtime_core" path="arkcompiler/runtime_core" remote="openharmony" revision="59a33d7a52602c90a1772d0e9b5d2a539c9effbc" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="arkcompiler_toolchain" path="arkcompiler/toolchain" remote="openharmony" revision="9ea763dbd312045594e9bb7cb458a2cbb49c1152" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="arkui_ace_engine" path="foundation/arkui/ace_engine" remote="openharmony" revision="3b8c22963dbc9c6a75e7911c27f8057a76444448" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="691a126faa8a766fd6ff03e6e29bf2e57317ca91" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="b17b6b3f91ed2e7997f4981ed3c36e4a48a9a69c" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="arkui_napi" path="foundation/arkui/napi" remote="openharmony" revision="c24f5a9c18e63d0baadfccbba1dd1c6029b63eb2" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="arkxtest" path="test/testfwk/arkxtest" revision="339742dd5feff771207889e5a4f7607d08b392ad" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="build" remote="openharmony" revision="857b249ded8b50cb036fa0ecd12ff1d0d386925e" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release">
+    <linkfile src="core/gn/dotfile.gn" dest=".gn"/>
   </project>
-  <project path="productdefine/common" name="productdefine" />
+  <project name="build_plugins" revision="de2d5dc0e341605ad81fd30812b37949cdc0da21" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release">
+    <linkfile src="build_scripts/build.sh" dest="build.sh"/>
+  </project>
+  <project name="cli" path="developtools/ace_tools" revision="19e32d2f39ef3b2fd37a67a1fe358e9511d6950c" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="commonlibrary_c_utils" path="commonlibrary/c_utils" remote="openharmony" revision="e01ffbfc3d9e621f11f8780b38e6cc92d1248ee2" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="commonlibrary_ets_utils" path="commonlibrary/ets_utils" remote="openharmony" revision="fc3dcd93346f13f56f77d2f6ad1d60dac1722832" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="commonlibrary_memory_utils" path="commonlibrary/memory_utils" remote="openharmony" revision="651da30d5e980fcc01b923389c4c41202e76ba7e" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="commonlibrary_utils_lite" path="commonlibrary/utils_lite" remote="openharmony" revision="272a4be554665c1b6b19cae7092a04cbfdb50388" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="communication_bluetooth" path="foundation/communication/bluetooth" remote="openharmony" revision="8e38b3915aa5dd363dd56aec3ebc8f17e2554218" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="openharmony" revision="12d9d7c275b0f6b7611ce181a38c04fedddbe480" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="communication_netstack" path="foundation/communication/netstack" remote="openharmony" revision="4a25d4a2107d921cae049ac1ea7a1ce82d9d1704" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="community" revision="37a0668992e66469580d512c85ef674a23c83546" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="developtools_ace_ets2bundle" path="developtools/ace_ets2bundle" remote="openharmony" revision="b2d29b3d9ab18ff9d51af6b37829ed188ba12cfb" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="developtools_ace_js2bundle" path="developtools/ace_js2bundle" remote="openharmony" revision="c90ad48d5ad27a50050825f1bd30161bf23d843c" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="developtools_global_resource_tool" path="developtools/global_resource_tool" remote="openharmony" revision="af52f14211905b6eba916ba2ba5e5d4cd6db3254" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="developtools_hapsigner" path="developtools/hapsigner" remote="openharmony" revision="c66a095cd34047082611f278a3fc0b54be7c5e3b" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="developtools_integration_verification" path="developtools/integration_verification" remote="openharmony" revision="8116d1b3e7038ca566795ffed35679457e91fbe8" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="developtools_packing_tool" path="developtools/packing_tool" remote="openharmony" revision="54f3141256915258bef42a79e17e312b1294e6fd" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="developtools_profiler" path="developtools/profiler" remote="openharmony" revision="5f3abe8483925aba8d883d11e713c13a8893634b" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="distributeddatamgr_kv_store" path="foundation/distributeddatamgr/kv_store" remote="openharmony" revision="d5fed0d543f5434bc69af3d8f0b1edd81e763de9" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="distributeddatamgr_pasteboard" path="foundation/distributeddatamgr/pasteboard" remote="openharmony" revision="6bc6fa101cf3e846a68907b318d9083349888707" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="distributeddatamgr_preferences" path="foundation/distributeddatamgr/preferences" remote="openharmony" revision="603bc35347eb88f69174c65b064e821fb382f7d3" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="distributeddatamgr_relational_store" path="foundation/distributeddatamgr/relational_store" remote="openharmony" revision="65f6a661fb589b062148a39fc56c317bd3545296" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="distributeddatamgr_udmf" path="foundation/distributeddatamgr/udmf" remote="openharmony" revision="9ff911d64df6c39d29bcab343d9a796713158c7e" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="docs" revision="bdff9c51a96b0ff9a3154db74c49ee7b2fa935a0" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="filemanagement_file_api" path="foundation/filemanagement/file_api" remote="openharmony" revision="141f1897f81153188e42154a1b9752de375ae183" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="global_resource_management" path="base/global/resource_management" remote="openharmony" revision="e780778b81203cd52f7633304e47b4941d615dc0" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="global_system_resources" path="base/global/system_resources" remote="openharmony" revision="4a810a723d02c6909771736417c62adb34ce5822" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="openharmony" revision="b4b9284ff67b7a04a9bda38395fc1b6bf993e8ed" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="graphic_graphic_surface" path="foundation/graphic/graphic_surface" remote="openharmony" revision="dcdad6b454c2509370043ddcd89e170020c5bf2b" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="graphic_graphics_effect" path="foundation/graphic/graphics_effect" remote="openharmony" revision="2de3a67f9597fac48de0123ae73151af0f590a78" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="hiviewdfx_hilog" path="base/hiviewdfx/hilog" remote="openharmony" revision="dd4ebaa2f2bff3e4fc125e8de99ab73b3f60ef04" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="hiviewdfx_hitrace" path="base/hiviewdfx/hitrace" remote="openharmony" revision="faf8460b3a9e672894299b7a836bb0c59c3ea76e" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="interface_sdk" path="interface/sdk" revision="ef09a0e0954b920a6c2c02f556bbb69ce54cd14b" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="interface_sdk-js" path="interface/sdk-js" remote="openharmony" revision="701b76bd9e82ef168b7d06a20fcf3ef4ee69b312" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="msdp_device_status" path="base/msdp/device_status" remote="openharmony" revision="ed0a90348b2852c51fe43354643edac2ce7ec310" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" remote="openharmony" revision="ac66942015345a2aa190bb1997d4b90fdb609437" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="multimedia_av_codec" path="foundation/multimedia/av_codec" remote="openharmony" revision="a4af1f4e8d477b76007c15b6ea2ff3586b4c910d" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="multimedia_av_session" path="foundation/multimedia/av_session" remote="openharmony" revision="1a86aadfb204e73b1b4dc1a4dd114245de790e4e" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="multimedia_drm_framework" path="foundation/multimedia/drm_framework" remote="openharmony" revision="d378b77881d75730792cb2794503d7d0cff9c37c" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="multimedia_image_framework" path="foundation/multimedia/image_framework" remote="openharmony" revision="514e7577aef53e6f47898ab043c0e2f8483f26fa" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="multimedia_media_foundation" path="foundation/multimedia/media_foundation" remote="openharmony" revision="8f846f3587258798b77397444d4a827cc210ad7c" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" remote="openharmony" revision="f105ef8bf73b68b96877684c75f7717c4d6839e2" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="multimodalinput_input" path="foundation/multimodalinput/input" remote="openharmony" revision="e77bbd0b888683c55fc5d94ad74b3ee018e62835" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="notification_eventhandler" path="base/notification/eventhandler" remote="openharmony" revision="b6dbe337dee47a8567faa21214fb7ef1f342de6d" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="plugins" revision="39f736cc30f0786e6c11b2dd580cdf0b1f54fb48" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="productdefine" path="productdefine/common" revision="3221774c7c87d7a6ed451c2f4eb4b2aabc8165ca" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="resourceschedule_qos_manager" path="foundation/resourceschedule/qos_manager" remote="openharmony" revision="135ddd986963c4898169973dd232a74ec5286f5d" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="samples" revision="4a664de97c704b79dbe4926bf48a1df5d5910236" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
+  <project name="security_certificate_framework" path="base/security/certificate_framework" remote="openharmony" revision="3a2bcb3057c16ea9f274f916bcecd18ddb198f35" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="security_crypto_framework" path="base/security/crypto_framework" remote="openharmony" revision="dc13b9a207d24ec24d2e474b22ad766c459fb5e5" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_abseil-cpp" path="third_party/abseil-cpp" remote="openharmony" revision="853d60fd68b012ebabd1f5858d9f754835252a0c" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_bounds_checking_function" path="third_party/bounds_checking_function" remote="openharmony" revision="2ae82839ecaaa7d031e66ccbd2076d671acfd615" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_cJSON" path="third_party/cJSON" remote="openharmony" revision="ed51a490e22e7120be055a8b2fdb2a0a7f8676a7" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_css-what" path="third_party/css-what" remote="openharmony" revision="66c986b3597910d384f32d7b098112d2b48d4145" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_curl" path="third_party/curl" remote="openharmony" revision="b99a6dc4e8474802abfd96f97ec279d97e099458" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_decimal.js" path="third_party/decimal.js" remote="openharmony" revision="059403a32c1ce086fc33f66714fc0f62184ea5a6" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_egl" path="third_party/EGL" remote="openharmony" revision="fbbc555f608476f0934bcb77134f8f29704c855f" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_ffmpeg" path="third_party/ffmpeg" remote="openharmony" revision="cc63c889eb38fac4d519dc38238da68d5fc25a15" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_freetype" path="third_party/freetype" remote="openharmony" revision="365d891625264cba0afeffeaf8972c6c79d5a13f" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_googletest" path="third_party/googletest" remote="openharmony" revision="c15616e4b5b7d990ada6fb12b8b26f65cdb91580" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_icu" path="third_party/icu" remote="openharmony" revision="e7dc850c25fc69109275ee2f80f6e68c05c6dd47" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_jinja2" path="third_party/jinja2" remote="openharmony" revision="1611aa4447699769435f913a3c3753d259c76fdb" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_jsframework" path="third_party/jsframework" remote="openharmony" revision="d6f4e64e492cad01618ded48d4209f0697675fdf" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_json" path="third_party/json" remote="openharmony" revision="3c3d8e61bde0f2e8aaa206a102e50fed7b9b2199" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_jsoncpp" path="third_party/jsoncpp" remote="openharmony" revision="24cc8282a123a537e02ef31886974bf8f5a960b1" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_libexif" path="third_party/libexif" remote="openharmony" revision="3755dca3b8fff12074cf89acdfb4dedd73d0627a" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_libphonenumber" path="third_party/libphonenumber" remote="openharmony" revision="4f2131f6c1dc9e559dfb3f3e7d3fcab6c4f0c75c" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_libpng" path="third_party/libpng" remote="openharmony" revision="d5bf92e1f94072a0cafbc26647b0c06ba21055fa" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_libuv" path="third_party/libuv" remote="openharmony" revision="e05b9ee18d9ba5091614fd347f1f8c2a4a4e8944" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_libwebsockets" path="third_party/libwebsockets" remote="openharmony" revision="0d3f6bc6a26894c01437dadca79b3363b1ce341f" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_libxml2" path="third_party/libxml2" remote="openharmony" revision="884ec74df46594f5d2513ae2ab34834d914fedf6" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_markupsafe" path="third_party/markupsafe" remote="openharmony" revision="c44ef7f93941faa504d3adb230c74e7d195a0f35" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_nghttp2" path="third_party/nghttp2" remote="openharmony" revision="6e2db034c7bc0ed9b652a9433cfd3b91d77b257f" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_node" path="third_party/node" remote="openharmony" revision="d6bfaf5c015d29fee58e3c94f01d463fb87a9497" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_opengles" path="third_party/openGLES" remote="openharmony" revision="208a6aa1419fbe7fc3c20d38494220347e069a94" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_openssl" path="third_party/openssl" remote="openharmony" revision="9dc7240b90be416e2e94a94d6c1c48d4d41ee1bc" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_parse5" path="third_party/parse5" remote="openharmony" revision="1333a773e1040729e4e4199f9113f22ac60fc31c" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_pcre2" path="third_party/pcre2" remote="openharmony" revision="ebf95a7588f02b8f750c9570e5167d62cc8d2ed6" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_protobuf" path="third_party/protobuf" remote="openharmony" revision="0bdb3b7832f52dc5793da2fb67b260ef0eb97f4b" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_qrcodegen" path="third_party/qrcodegen" remote="openharmony" revision="d05d7cd47d3aee52fa3f81a5032d53af2e179a42" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_skia" path="third_party/skia" remote="openharmony" revision="54086502f91d12913d16acdcca5dfce508a96bae" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_sqlite" path="third_party/sqlite" remote="openharmony" revision="71cfef28f84b6bd0603dfb2eb28f436294992bbd" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_typescript" path="third_party/typescript" remote="openharmony" revision="67fd0c80ba1ba2546f8a0cec31286923f5a5a3dd" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_weex-loader" path="third_party/weex-loader" remote="openharmony" revision="aea6bae90d6b9d0bc15959f556b5045aed2ba635" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="third_party_zlib" path="third_party/zlib" remote="openharmony" revision="0ece7e63d168b0a2f435ae0e3b3145b4f6b16d26" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="time_time_service" path="base/time/time_service" remote="openharmony" revision="68ec66149b52671a51535ba170e65c60ec01eee5" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="web_webview" path="base/web/webview" remote="openharmony" revision="35bdd96e77b3292a0b211d3146693a7861764aec" upstream="OpenHarmony-6.1-Release" dest-branch="OpenHarmony-6.1-Release"/>
+  <project name="xts" path="test/xts" revision="aef801c08ef7f5fa8f965acf164e6b6e9606be36" upstream="ArkUI-X-6.1-Release" dest-branch="ArkUI-X-6.1-Release"/>
 </manifest>
