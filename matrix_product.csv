@@ -1,4 +1,4 @@
-repoistory,bundle,linux_x86_arkui_android,mac_arm_arkui_android,mac_arm_arkui_ios,format_check,test
+repoistory,bundle,linux_x86_arkui_android_7.0-release,mac_arm_arkui_android_7.0-release,mac_arm_arkui_ios_7.0-release,format_check,test
 arkui_for_android,@ohos/arkui_for_android,Y,N,N,Y,,
 arkui_for_ios,@ohos/arkui_for_ios,N,N,Y,Y,,
 cli,@ohos/cli,N,N,N,Y,,
