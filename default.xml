@@ -10,10 +10,10 @@
   <project path="test/testfwk/arkxtest" name="arkxtest" />
   <project path="docs" name="docs" />
   <project path="developtools/ace_tools" name="cli" />
-  <project path="foundation/appframework" name="app_framework" />
-  <project path="foundation/arkui/ace_engine/adapter/android" name="arkui_for_android" />
-  <project path="foundation/arkui/ace_engine/adapter/ios" name="arkui_for_ios" />
-  <project path="plugins" name="plugins" />
+  <project name="app_framework" path="foundation/appframework" revision="902c49382aebf59734d5f3b8ae903eb2210b30ad" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
+  <project name="arkui_for_android" path="foundation/arkui/ace_engine/adapter/android" revision="4bf381acf24187003236a9ef834c9fcccf7d80b1" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
+  <project name="arkui_for_ios" path="foundation/arkui/ace_engine/adapter/ios" revision="3f0155d256ef48c2e89a641386e47d917916ca2b" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
+  <project name="plugins" revision="2d7d0b5dc9d8a8c1f41213854c91fbd037a1e592" upstream="ArkUI-X-6.0-Release" dest-branch="ArkUI-X-6.0-Release"/>
   <project path="interface/sdk" name="interface_sdk" />
   <project path="build_plugins" name="build_plugins">
     <linkfile dest="build.sh" src="build_scripts/build.sh"/>

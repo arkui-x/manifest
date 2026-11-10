@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitcode.com/openharmony" name="openharmony" review="https://gitcode.com/openharmony/"/>
 
-  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="OpenHarmony-6.0-Release" />
+  <project path="foundation/arkui/ace_engine" name="arkui_ace_engine" remote="openharmony" revision="b87e9a585eb55af95b6ceeffdc28d32d445a7b1e" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="foundation/arkui/napi" name="arkui_napi" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project name="graphic_graphic_2d" path="foundation/graphic/graphic_2d" remote="openharmony" revision="658f4a0aca146ed5d3e16208bc170c39266a8746" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="foundation/graphic/graphic_surface" name="graphic_graphic_surface" remote="openharmony" revision="OpenHarmony-6.0-Release" />
@@ -43,10 +43,10 @@
   <project path="foundation/distributeddatamgr/kv_store" name="distributeddatamgr_kv_store" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/distributeddatamgr/udmf" name="distributeddatamgr_udmf" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/communication/bluetooth" name="communication_bluetooth" remote="openharmony" revision="OpenHarmony-6.0-Release" />
-  <project path="foundation/communication/netmanager_base" name="communication_netmanager_base" remote="openharmony" revision="OpenHarmony-6.0-Release" />
+  <project name="communication_netmanager_base" path="foundation/communication/netmanager_base" remote="openharmony" revision="3fe603a619d102b8707a3a2ea1dab3354cfb7a97" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="foundation/communication/netstack" name="communication_netstack" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/multimedia/image_framework" name="multimedia_image_framework" remote="openharmony" revision="OpenHarmony-6.0-Release" />
-  <project path="base/global/resource_management" name="global_resource_management" remote="openharmony" revision="OpenHarmony-6.0-Release" />
+  <project name="global_resource_management" path="base/global/resource_management" remote="openharmony" revision="a07c5248e6c7474b9d95142a1ee5f07d4134d400" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="base/hiviewdfx/hilog" name="hiviewdfx_hilog" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project name="web_webview" path="base/web/webview" remote="openharmony" revision="0ef4cd10fc96b0a0b5801b507f2c7077bc40f46c" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="base/security/crypto_framework" name="security_crypto_framework" remote="openharmony" revision="OpenHarmony-6.0-Release" />
@@ -75,10 +75,10 @@
   <project path="third_party/jsframework" name="third_party_jsframework" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="third_party/parse5" name="third_party_parse5" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="base/notification/eventhandler" name="notification_eventhandler" remote="openharmony" revision="OpenHarmony-6.0-Release" />
-  <project path="foundation/multimedia/player_framework" name="multimedia_player_framework" remote="openharmony" revision="OpenHarmony-6.0-Release" />
+  <project name="multimedia_player_framework" path="foundation/multimedia/player_framework" remote="openharmony" revision="0ca0662d981d51250fa4082e5cfb595dfba65c1f" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="foundation/multimedia/av_codec" name="multimedia_av_codec" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/multimedia/media_foundation" name="multimedia_media_foundation" remote="openharmony" revision="OpenHarmony-6.0-Release" />
-  <project path="foundation/multimedia/audio_framework" name="multimedia_audio_framework" remote="openharmony" revision="OpenHarmony-6.0-Release" />
+  <project name="multimedia_audio_framework" path="foundation/multimedia/audio_framework" remote="openharmony" revision="e30984b1b4d214db1772d225ff2cc4c425cd5760" upstream="OpenHarmony-6.0-Release" dest-branch="OpenHarmony-6.0-Release"/>
   <project path="foundation/multimedia/drm_framework" name="multimedia_drm_framework" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/multimedia/av_session" name="multimedia_av_session" remote="openharmony" revision="OpenHarmony-6.0-Release" />
   <project path="foundation/resourceschedule/qos_manager" name="resourceschedule_qos_manager" remote="openharmony" revision="OpenHarmony-6.0-Release" />
